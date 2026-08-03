@@ -1,0 +1,54 @@
+{
+  "dataset": "UNFCCC_Paris_Agreement_Parties",
+  "version": "1378-CNCCFP-Audit",
+  "last_updated": "2026-08-03",
+  "total_parties": 194,
+  "excluded": ["United States", "Iran", "Libya", "Yemen", "Eritrea"],
+  "parties": [
+    {
+      "id": "FRA",
+      "country": "France",
+      "region": "Europe",
+      "lat": 46.2276,
+      "lng": 2.2137,
+      "ratification_date": "2016-10-05",
+      "notes_investigation": "Hôte de la COP21 - Coalition 'Ensemble'"
+    },
+    {
+      "id": "BRB",
+      "country": "Barbade",
+      "region": "Amériques/Caraïbes",
+      "lat": 13.1939,
+      "lng": -59.5432,
+      "ratification_date": "2016-04-22",
+      "notes_investigation": "Co-lead Task Force Aviation"
+    },
+    {
+      "id": "CHN",
+      "country": "Chine",
+      "region": "Asie",
+      "lat": 35.8617,
+      "lng": 104.1954,
+      "ratification_date": "2016-09-03",
+      "notes_investigation": ""
+    },
+    {
+      "id": "DEU",
+      "country": "Allemagne",
+      "region": "Europe",
+      "lat": 51.1657,
+      "lng": 10.4515,
+      "ratification_date": "2016-10-05",
+      "notes_investigation": ""
+    },
+    {
+      "id": "KEN",
+      "country": "Kenya",
+      "region": "Afrique",
+      "lat": -1.286389,
+      "lng": 36.817223,
+      "ratification_date": "2016-12-28",
+      "notes_investigation": "Co-lead Task Force GSLTF"
+    }
+  ]
+}
