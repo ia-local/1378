@@ -1,10 +1,10 @@
 // ==========================================
-// MODULE : Chargement Asynchrone des 194 Parties de l'Accord de Paris
-// CONTEXTE : Répertoire GIT 1378 - Audit CNCCFP
+// MODULE : Chargement Asynchrone des 195 Parties de l'Accord de Paris
+// CONTEXTE : Répertoire GIT 1378 - Audit CNCCFP / Plaidoyer Kyoto
 // ==========================================
 
 export async function initParisAgreementMap() {
-    // 1. Initialisation de la carte Leaflet (doit correspondre à <div id="map"></div> dans le HTML)
+    // 1. Initialisation de la carte Leaflet
     const map = L.map('map').setView([20.0, 0.0], 2);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -12,8 +12,8 @@ export async function initParisAgreementMap() {
         attribution: '© OpenStreetMap contributors | Source: UNFCCC'
     }).addTo(map);
 
-    // Style de l'icône de base
-    const defaultIcon = L.icon({
+    // 2. Style de l'icône - Forcé en VERT pour les co-signataires ciblés
+    const greenIcon = L.icon({
         iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
         shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
         iconSize: [25, 41],
@@ -25,7 +25,7 @@ export async function initParisAgreementMap() {
     try {
         console.log("[Système 1378] Début de la récupération asynchrone du registre UNFCCC...");
         
-        // 2. Récupération asynchrone du fichier JSON local
+        // 3. Récupération asynchrone du fichier JSON local
         const response = await fetch('./unfccc-parties-core.json');
         
         if (!response.ok) {
@@ -33,18 +33,22 @@ export async function initParisAgreementMap() {
         }
         
         const data = await response.json();
-        console.log(`[Système 1378] Registre chargé : ${data.total_parties} États souverains.`);
+        console.log(`[Système 1378] Registre chargé : Cible de ${data.total_parties_target} entités.`);
+        console.log(`[Système 1378] Objectif stratégique : ${data.strategic_objective}`);
         console.log(`[Système 1378] Pays exclus statutairement : ${data.excluded.join(', ')}.`);
 
-        // 3. Boucle de génération des marqueurs
+        // 4. Boucle de génération des marqueurs avec le seq_id
         data.parties.forEach(party => {
             if (party.lat && party.lng) {
-                const marker = L.marker([party.lat, party.lng], { icon: defaultIcon }).addTo(map);
+                const marker = L.marker([party.lat, party.lng], { icon: greenIcon }).addTo(map);
                 
-                // Construction d'une popup structurée pour l'investigation
+                // Construction d'une popup structurée incluant l'ID séquentiel pour le suivi
                 const popupContent = `
                     <div style="font-family: 'Marianne', sans-serif;">
-                        <h4 style="margin:0 0 5px 0;">${party.country} (${party.id})</h4>
+                        <h4 style="margin:0 0 5px 0;">
+                            <span style="color:#27a659;">[#${party.seq_id}/${data.total_parties_target}]</span> 
+                            ${party.country} (${party.id})
+                        </h4>
                         <hr style="margin:5px 0; border:0; border-top:1px solid #ccc;">
                         <strong>Ratification:</strong> ${party.ratification_date}<br>
                         <strong>Région:</strong> ${party.region}<br>
@@ -58,16 +62,15 @@ export async function initParisAgreementMap() {
 
     } catch (error) {
         console.error("[ERREUR CRITIQUE] Impossible de charger les données UNFCCC :", error);
-        // Fallback visuel dans l'interface si le JSON est inaccessible
-        document.getElementById('map').innerHTML = `<div style="padding:20px; color:red;">Erreur de chargement des données. Vérifiez l'accès à unfccc-parties-core.json. Détail : ${error.message}</div>`;
+        document.getElementById('map').innerHTML = `<div style="padding:20px; color:red; font-family: sans-serif;">Erreur de chargement des données de cartographie. Vérifiez l'accès au fichier JSON. Détail : ${error.message}</div>`;
     }
 }
 
-// Lancement automatique si appelé directement
+// Lancement automatique si le DOM est prêt et Leaflet chargé
 document.addEventListener('DOMContentLoaded', () => {
     if (typeof L !== 'undefined') {
         initParisAgreementMap();
     } else {
-        console.warn("[Système 1378] La librairie Leaflet (L) n'est pas encore chargée.");
+        console.warn("[Système 1378] La librairie Leaflet (L) n'est pas chargée.");
     }
 });

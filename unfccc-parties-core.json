@@ -2,10 +2,12 @@
   "dataset": "UNFCCC_Paris_Agreement_Parties",
   "version": "1378-CNCCFP-Audit",
   "last_updated": "2026-08-03",
-  "total_parties": 194,
+  "total_parties_target": 195,
+  "strategic_objective": "Plaidoyer_Retour_Kyoto_Reforme",
   "excluded": ["United States", "Iran", "Libya", "Yemen", "Eritrea"],
   "parties": [
     {
+      "seq_id": 1,
       "id": "FRA",
       "country": "France",
       "region": "Europe",
@@ -15,6 +17,7 @@
       "notes_investigation": "Hôte de la COP21 - Coalition 'Ensemble'"
     },
     {
+      "seq_id": 2,
       "id": "BRB",
       "country": "Barbade",
       "region": "Amériques/Caraïbes",
@@ -24,15 +27,17 @@
       "notes_investigation": "Co-lead Task Force Aviation"
     },
     {
+      "seq_id": 3,
       "id": "CHN",
       "country": "Chine",
       "region": "Asie",
       "lat": 35.8617,
       "lng": 104.1954,
       "ratification_date": "2016-09-03",
-      "notes_investigation": ""
+      "notes_investigation": "Premier émetteur mondial - Cible prioritaire Kyoto"
     },
     {
+      "seq_id": 4,
       "id": "DEU",
       "country": "Allemagne",
       "region": "Europe",
@@ -42,6 +47,7 @@
       "notes_investigation": ""
     },
     {
+      "seq_id": 5,
       "id": "KEN",
       "country": "Kenya",
       "region": "Afrique",
@@ -49,6 +55,106 @@
       "lng": 36.817223,
       "ratification_date": "2016-12-28",
       "notes_investigation": "Co-lead Task Force GSLTF"
+    },
+    {
+      "seq_id": 6,
+      "id": "GBR",
+      "country": "Royaume-Uni",
+      "region": "Europe",
+      "lat": 55.3781,
+      "lng": -3.4360,
+      "ratification_date": "2016-11-18",
+      "notes_investigation": "Ancien membre UE - Modèle de tarification carbone autonome"
+    },
+    {
+      "seq_id": 7,
+      "id": "IND",
+      "country": "Inde",
+      "region": "Asie",
+      "lat": 20.5937,
+      "lng": 78.9629,
+      "ratification_date": "2016-10-02",
+      "notes_investigation": "Défenseur historique du principe de responsabilité commune mais différenciée (Kyoto)"
+    },
+    {
+      "seq_id": 8,
+      "id": "BRA",
+      "country": "Brésil",
+      "region": "Amériques",
+      "lat": -14.2350,
+      "lng": -51.9253,
+      "ratification_date": "2016-09-21",
+      "notes_investigation": "Acteur clé sur les fonds de compensation forestière"
+    },
+    {
+      "seq_id": 9,
+      "id": "CAN",
+      "country": "Canada",
+      "region": "Amériques",
+      "lat": 56.1304,
+      "lng": -106.3468,
+      "ratification_date": "2016-10-05",
+      "notes_investigation": "S'était retiré de Kyoto en 2011 - Argumentaire à adapter"
+    },
+    {
+      "seq_id": 10,
+      "id": "JPN",
+      "country": "Japon",
+      "region": "Asie",
+      "lat": 36.2048,
+      "lng": 138.2529,
+      "ratification_date": "2016-11-08",
+      "notes_investigation": "Berceau du Protocole de Kyoto (1997)"
+    },
+    {
+      "seq_id": 11,
+      "id": "ZAF",
+      "country": "Afrique du Sud",
+      "region": "Afrique",
+      "lat": -30.5595,
+      "lng": 22.9375,
+      "ratification_date": "2016-11-01",
+      "notes_investigation": "Leader du bloc africain dans les négociations"
+    },
+    {
+      "seq_id": 12,
+      "id": "AUS",
+      "country": "Australie",
+      "region": "Océanie",
+      "lat": -25.2744,
+      "lng": 133.7751,
+      "ratification_date": "2016-11-09",
+      "notes_investigation": ""
+    },
+    {
+      "seq_id": 13,
+      "id": "RUS",
+      "country": "Russie",
+      "region": "Europe/Asie",
+      "lat": 61.5240,
+      "lng": 105.3188,
+      "ratification_date": "2019-10-07",
+      "notes_investigation": "Ratification tardive - Intérêts liés aux énergies fossiles"
+    },
+    {
+      "seq_id": 14,
+      "id": "SAU",
+      "country": "Arabie Saoudite",
+      "region": "Moyen-Orient",
+      "lat": 23.8859,
+      "lng": 45.0792,
+      "ratification_date": "2016-11-03",
+      "notes_investigation": ""
+    },
+    {
+      "seq_id": 15,
+      "id": "EUU",
+      "country": "Union Européenne",
+      "region": "Europe",
+      "lat": 50.8503,
+      "lng": 4.3517,
+      "ratification_date": "2016-10-05",
+      "notes_investigation": "Organisation régionale (Entité 195) - Compétence partagée avec ses États membres"
     }
   ]
 }
