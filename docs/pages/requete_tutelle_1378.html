@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr" data-fr-scheme="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.14.4/dist/dsfr.min.css">
+    <title>Requête de Mise sous Tutelle - Dossier 1378</title>
+    <style>
+        /* =========================================
+           STYLE ÉCRAN (HUD & APERÇU DU DOCUMENT)
+           ========================================= */
+        body { background-color: var(--background-alt-grey); }
+        
+        .letter-preview {
+            background: #ffffff;
+            max-width: 210mm; /* Largeur A4 */
+            margin: 0 auto 3rem auto;
+            padding: 20mm;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            font-family: "Marianne", Arial, sans-serif;
+            font-size: 11pt;
+            line-height: 1.4;
+            color: #161616;
+        }
+
+        .letter-header { display: flex; justify-content: space-between; margin-bottom: 20px; }
+        .recipient { margin-left: 50%; font-weight: bold; margin-bottom: 30px; }
+        .subject { font-weight: bold; text-decoration: underline; margin-bottom: 20px; text-transform: uppercase; }
+        .legal-ref { background: #f9f9f9; border-left: 3px solid var(--blue-france-sun-113-625); padding: 10px; margin: 15px 0; font-style: italic; }
+        
+        /* =========================================
+           STYLE IMPRESSION (MODE PDF A4 STRICT)
+           ========================================= */
+        @media print {
+            @page { size: A4; margin: 15mm; }
+            body { background-color: white; }
+            
+            /* Masquage de l'interface utilisateur */
+            .no-print, .fr-header, .fr-footer { display: none !important; }
+            
+            /* Ajustement de la lettre pour l'export */
+            .letter-preview {
+                box-shadow: none;
+                margin: 0;
+                padding: 0;
+                max-width: 100%;
+                font-size: 10pt; /* Réduction légère pour tenir sur 1 page */
+            }
+            .fr-container { padding: 0 !important; max-width: 100% !important; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="no-print">
+        <header role="banner" class="fr-header">
+            <div class="fr-header__body">
+                <div class="fr-container">
+                    <div class="fr-header__brand"><p class="fr-logo">République<br>Française</p></div>
+                    <div class="fr-header__service">
+                        <p class="fr-header__service-title">Module d'Export Juridique</p>
+                        <p class="fr-header__service-tagline">Génération de la saisine du Juge des Tutelles</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="fr-container fr-mt-4w fr-mb-4w">
+            <div class="fr-alert fr-alert--info fr-mb-2w">
+                <h3 class="fr-alert__title">Aperçu du Courrier Officiel</h3>
+                <p>Ce document est préformaté. En cliquant sur le bouton ci-dessous, le navigateur supprimera l'interface pour générer un PDF A4 parfait.</p>
+            </div>
+            <button class="fr-btn fr-icon-printer-line fr-btn--icon-left" onclick="window.print()">
+                Imprimer / Exporter en PDF
+            </button>
+            <a href="../index.html" class="fr-btn fr-btn--secondary fr-ml-2w">Retour à l'enquête</a>
+        </div>
+    </div>
+
+    <div class="fr-container">
+        <div class="letter-preview">
+            
+            <div style="text-align: right; margin-bottom: 20px;">
+                Fait le 27 avril 2026, à ____________________
+            </div>
+
+            <div class="letter-header">
+                <div style="width: 50%;">
+                    <strong>Collectif SouverainAI</strong><br>
+                    Audit Citoyen - Dossier 1378<br>
+                    Réf: CPP-41 / CC-440<br>
+                    Pièces : github.com/ia-local/dossier_1378
+                </div>
+            </div>
+
+            <div class="recipient">
+                À Monsieur le Procureur de la République<br>
+                Près le Tribunal Judiciaire de Paris<br>
+                Pôle Financier<br>
+                75017 PARIS
+            </div>
+
+            <div class="subject">
+                Objet : Signalement (Art. 40 CPP) et Requête en mise sous tutelle judiciaire des comptes du groupement 1378.
+            </div>
+
+            <p>Monsieur le Procureur,</p>
+            <p>Nous portons à votre connaissance des faits de détournement de finalité du mandat électoral et d’opacité financière majeure. L’audit des comptes du groupement <strong>1378 (Ensemble)</strong>, ainsi que des entités <strong>910 (Renaissance)</strong> et <strong>1344 (Horizons)</strong>, révèle une gestion déconnectée de l'intérêt général au profit de logiques commerciales privées.</p>
+
+            <div class="legal-ref">
+                <strong>Fondements :</strong> Article 41 du CPP (Direction des investigations) et Article 440 du Code Civil (Sauvegarde des intérêts face à une gestion irrationnelle des deniers).
+            </div>
+
+            <h3 class="fr-h6" style="margin-top: 15px; border-bottom: 1px solid var(--blue-france-sun-113-625);">I. Éléments Matériels Versés au Dossier</h3>
+            <ul style="padding-left: 20px; font-size: 0.95em;">
+                <li><strong>Flux Croisés Suspects :</strong> Transferts massifs vers les entités satellites sans justification d'utilité citoyenne, qualifiant une suspicion de blanchiment.</li>
+                <li><strong>Obstruction Judiciaire :</strong> Refus d'obtempérer acté le 16 avril 2026 lors de la réquisition de la comptabilité à l'Élysée.</li>
+                <li><strong>Dissipation de Richesse :</strong> Usage de "Produits d'exploitation" commerciaux alors que le pays subit une inflation record et une paupérisation des travailleurs.</li>
+            </ul>
+
+            <h3 class="fr-h6" style="margin-top: 15px; border-bottom: 1px solid var(--blue-france-sun-113-625);">II. Carence Démocratique Constatée</h3>
+            <table class="fr-table fr-table--bordered" style="width: 100%; font-size: 0.9em; margin-bottom: 15px;">
+                <thead>
+                    <tr>
+                        <th style="padding: 5px;">Grief</th>
+                        <th style="padding: 5px;">Preuve / Statut</th>
+                        <th style="padding: 5px;">Impact National</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td style="padding: 5px;">Déni du RIC</td><td style="padding: 5px;">Répression violente</td><td style="padding: 5px;">Bafouement de la souveraineté</td></tr>
+                    <tr><td style="padding: 5px;">Inaction RUP</td><td style="padding: 5px;">Détournement de fonds</td><td style="padding: 5px;">Précarité et faim des citoyens</td></tr>
+                    <tr><td style="padding: 5px;">Crime Climat</td><td style="padding: 5px;">Injections SAI (Art. 53)</td><td style="padding: 5px;">Toxicité (Baryum / PFAS)</td></tr>
+                </tbody>
+            </table>
+
+            <p>En conséquence, nous requérons la mise sous <strong>tutelle immédiate</strong> des comptes du groupement 1378. Cette mesure conservatoire est vitale pour stopper la dissipation des deniers publics et restaurer le contrôle citoyen avant toute altération définitive des preuves matérielles.</p>
+
+            <div style="margin-top: 40px; text-align: right;">
+                <strong>Pour le Collectif SouverainAI,</strong><br><br>
+                __________________________<br>
+                <span style="font-size: 8pt; color: #666;">(Signature manuscrite)</span>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

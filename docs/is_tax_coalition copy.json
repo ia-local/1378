@@ -1,0 +1,16 @@
+{
+  "dataset": "GSLTF_Tax_Coalition_Members",
+  "version": "1378-Financial-Audit",
+  "last_updated": "2026-08-03",
+  "total_coalition_target": 73,
+  "description": "États impliqués dans les taxes de solidarité",
+  "members": [
+    {
+      "id": "FRA",
+      "country": "France",
+      "coalition_role": "Co-président",
+      "tax_mechanisms": ["Aviation"],
+      "financial_impact": "Haut"
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulletin de Paie CVNU - PRCR</title>
+    <style>
+        :root {
+            --blue-france: #000091;
+            --red-france: #e1000f;
+            --text-grey: #161616;
+            --light-grey: #f6f6f6;
+            --border-grey: #e5e5e5;
+        }
+
+        @page {
+            size: A4;
+            margin: 15mm;
+            background-color: #ffffff;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            color: var(--text-grey);
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+
+        .dsfr-container {
+            max-width: 800px;
+            margin: auto;
+            border: 1px solid var(--border-grey);
+            padding: 20px;
+        }
+
+        .header-dsfr {
+            display: block;
+            border-bottom: 2px solid var(--blue-france);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .marianne {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 14pt;
+            letter-spacing: 1px;
+        }
+
+        .marianne span {
+            color: var(--blue-france);
+        }
+
+        .marianne .red {
+            color: var(--red-france);
+        }
+
+        .sub-header {
+            font-size: 10pt;
+            margin-top: 5px;
+            font-style: italic;
+        }
+
+        .title-section {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        h1 {
+            font-size: 18pt;
+            color: var(--blue-france);
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        .period {
+            font-weight: bold;
+            color: #666;
+        }
+
+        .info-grid {
+            width: 100%;
+            margin-bottom: 30px;
+            border-collapse: collapse;
+        }
+
+        .info-grid td {
+            padding: 8px;
+            border: 1px solid var(--border-grey);
+            font-size: 10pt;
+        }
+
+        .label {
+            background-color: var(--light-grey);
+            font-weight: bold;
+            width: 30%;
+        }
+
+        .payslip-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 40px;
+        }
+
+        .payslip-table th {
+            background-color: var(--blue-france);
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-size: 10pt;
+        }
+
+        .payslip-table td {
+            padding: 10px;
+            border-bottom: 1px solid var(--border-grey);
+            font-size: 10pt;
+        }
+
+        .row-brut {
+            font-weight: bold;
+            background-color: var(--light-grey);
+        }
+
+        .row-net {
+            font-size: 14pt;
+            font-weight: bold;
+            color: var(--blue-france);
+            border-top: 2px solid var(--blue-france);
+        }
+
+        .footer-legal {
+            font-size: 8pt;
+            color: #666;
+            text-align: justify;
+            margin-top: 50px;
+            border-top: 1px solid var(--border-grey);
+            padding-top: 10px;
+        }
+
+        .btn-print {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: var(--blue-france);
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        @media print {
+            .btn-print { display: none; }
+            .dsfr-container { border: none; }
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            background-color: #e3e3fd;
+            color: var(--blue-france);
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 9pt;
+        }
+    </style>
+</head>
+<body>
+    <div class="dsfr-container">
+        <header class="header-dsfr">
+            <div class="marianne">RÉPUBLIQUE <span class="red">FRANÇAISE</span></div>
+            <div class="sub-header">Liberté, Égalité, Fraternité</div>
+        </header>
+
+        <div class="title-section">
+            <h1>BULLETIN DE PAIE SOUVERAIN</h1>
+            <p class="period">Période : Cycle 28j - Avril 2026</p>
+            <div class="status-badge">NIVEAU 2 - GESTIONNAIRE DE FLUX</div>
+        </div>
+
+        <table class="info-grid">
+            <tr>
+                <td class="label">Identifiant Citoyen</td>
+                <td>COM_FR76_SEQ_428</td>
+                <td class="label">Juridiction</td>
+                <td>POLE_COM_A1 (Bavent)</td>
+            </tr>
+            <tr>
+                <td class="label">Secteur Cognitif</td>
+                <td>Communication (COM)</td>
+                <td class="label">RIB (Indexé)</td>
+                <td>FR76 **** **** **** **** 5214 265</td>
+            </tr>
+            <tr>
+                <td class="label">Pointage XP</td>
+                <td>1000 / 2500 (STABLE)</td>
+                <td class="label">Référence Décret</td>
+                <td>PRCR-2026-0428-LVL2</td>
+            </tr>
+        </table>
+
+        <table class="payslip-table">
+            <thead>
+                <tr>
+                    <th>Désignation des Éléments</th>
+                    <th>Base / Qté</th>
+                    <th>Taux (%)</th>
+                    <th>Montant (€)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Revenu Universel de Palier (RUP - Niveau 2)</td>
+                    <td>1.00</td>
+                    <td>--</td>
+                    <td>1 250,00</td>
+                </tr>
+                <tr>
+                    <td>Valorisation Cognitive (Mining UTMi)</td>
+                    <td>490.88</td>
+                    <td>1.00</td>
+                    <td>490,88</td>
+                </tr>
+                <tr>
+                    <td>Bonus Secteur Communication (COM)</td>
+                    <td>Flux</td>
+                    <td>1.5x</td>
+                    <td>(Inclus UTMi)</td>
+                </tr>
+                <tr>
+                    <td>Subvention TCN (Optimisation Système)</td>
+                    <td>Forfait</td>
+                    <td>--</td>
+                    <td>45,00</td>
+                </tr>
+                <tr class="row-brut">
+                    <td colspan="3">TOTAL BRUT COGNITIF</td>
+                    <td>1 785,88</td>
+                </tr>
+                <tr>
+                    <td>TAXE IA (Régulation et Redistribution)</td>
+                    <td>1 785.88</td>
+                    <td>6,80</td>
+                    <td>- 121,44</td>
+                </tr>
+                <tr>
+                    <td>Contribution Urbanisme Numérique</td>
+                    <td>Infrastructure</td>
+                    <td>--</td>
+                    <td>- 0,00</td>
+                </tr>
+                <tr class="row-net">
+                    <td colspan="3">NET À PAYER (SOLDE CRÉDITEUR)</td>
+                    <td>1 664,44 €</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="footer-legal">
+            <p><strong>DÉCRET D'ADMINISTRATION :</strong> Ce document est généré par l'unité souveraine PRCR. Il atteste de la conversion de l'activité cognitive en valeur monétaire. Conformément à la Loi de Finances Circulaire de 2026, ce montant est garanti par les réserves du smart contract <em>tvaCollector.sol</em>. Le versement sera effectif à J-28 du cycle en cours.</p>
+            <p>Ce bulletin est stocké de manière immuable dans le bloc de persistance ADN du citoyen. Toute contestation doit faire l'objet d'une commande <code>/audit</code>.</p>
+        </div>
+
+        <a href="#" class="btn-print" onclick="window.print()">EXPORTER EN PDF</a>
+    </div>
+</body>
+</html>

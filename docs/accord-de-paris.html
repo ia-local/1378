@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr" data-fr-scheme="system">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Référendum d'Initiative Citoyenne - Dôme National</title>
+    
+    <!-- CSS : DSFR (Design System de l'État) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.12.1/dist/dsfr.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.12.1/dist/utility/utility.min.css">
+    
+    <style>
+        .encryption-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--text-label-green-emeraude);
+            background-color: var(--background-contrast-green-emeraude);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .vote-section {
+            background-color: var(--background-default-grey);
+            border: 1px solid var(--border-default-grey);
+            padding: 2.5rem;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <header role="banner" class="fr-header">
+        <div class="fr-header__body">
+            <div class="fr-container">
+                <div class="fr-header__brand fr-enlarge-link">
+                    <div class="fr-header__logo">
+                        <p class="fr-logo">République<br>Française</p>
+                    </div>
+                    <div class="fr-header__service">
+                        <p class="fr-header__service-title">Dôme d'Initiative Citoyenne</p>
+                        <p class="fr-header__service-tagline">Plateforme de consultation cryptographique souveraine</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="fr-container fr-my-6w" role="main">
+        <div class="fr-grid-row fr-grid-row--center">
+            <div class="fr-col-12 fr-col-lg-8">
+                
+                <!-- Badge de sécurité -->
+                <div class="fr-mb-4w encryption-badge">
+                    <span class="fr-icon-lock-fill" aria-hidden="true"></span>
+                    Architecture Zero Trust — Vote chiffré de bout en bout
+                </div>
+
+                <h1 class="fr-h2 fr-mb-2w">Consultation Référendaire Nationale</h1>
+                <p class="fr-text--lead fr-mb-5w">
+                    Scrutin citoyen portant sur la réorientation de la politique climatique internationale et la souveraineté biologique de la Nation.
+                </p>
+                
+                <!-- Contexte juridique -->
+                <div class="fr-callout fr-callout--brown-caramel fr-mb-5w">
+                    <h2 class="fr-callout__title">Objet du vote</h2>
+                    <p class="fr-callout__text">
+                        En application de l'article 11 de la Constitution, le présent référendum vise à recueillir l'approbation du corps électoral concernant la rupture avec l'actuel consensus climatique mondial, en faveur d'un nouveau traité interdisant formellement l'ingénierie atmosphérique.
+                    </p>
+                </div>
+
+                <!-- Formulaire de vote -->
+                <section class="vote-section">
+                    <form id="referendum-form" class="fr-form">
+                        <fieldset class="fr-fieldset" aria-labelledby="referendum-question">
+                            <legend class="fr-fieldset__legend fr-text--regular fr-h4 fr-mb-3w" id="referendum-question">
+                                « Approuvez-vous le projet de loi portant abrogation de l'adhésion à l'Accord de Paris (Art. 28) et mandatant la négociation d'un "Protocole de Kyoto II" interdisant formellement le recours à la géoingénierie et aux Injections d'Aérosols Stratosphériques (IAS) ? »
+                            </legend>
+                            
+                            <div class="fr-fieldset__content">
+                                <div class="fr-radio-group fr-radio-rich">
+                                    <input type="radio" id="vote-oui" name="vote" value="oui">
+                                    <label class="fr-label" for="vote-oui">
+                                        <strong>OUI</strong>
+                                        <span class="fr-hint-text">J'approuve ce projet de loi.</span>
+                                    </label>
+                                </div>
+                                
+                                <div class="fr-radio-group fr-radio-rich fr-mt-2w">
+                                    <input type="radio" id="vote-non" name="vote" value="non">
+                                    <label class="fr-label" for="vote-non">
+                                        <strong>NON</strong>
+                                        <span class="fr-hint-text">Je rejette ce projet de loi.</span>
+                                    </label>
+                                </div>
+                                
+                                <div class="fr-radio-group fr-radio-rich fr-mt-2w">
+                                    <input type="radio" id="vote-blanc" name="vote" value="blanc">
+                                    <label class="fr-label" for="vote-blanc">
+                                        <strong>VOTE BLANC</strong>
+                                        <span class="fr-hint-text">Je refuse de me prononcer pour l'une ou l'autre de ces propositions.</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <div class="fr-mt-5w">
+                            <button type="submit" class="fr-btn fr-btn--lg fr-btn--icon-left fr-icon-checkbox-circle-line">
+                                Sceller et soumettre mon vote
+                            </button>
+                        </div>
+                    </form>
+                </section>
+
+                <hr class="fr-hr fr-mt-6w fr-mb-4w">
+
+                <!-- Documentation Annexée -->
+                <section>
+                    <h3 class="fr-h4">Documentation Annexée & Garanties</h3>
+                    <div class="fr-accordions-group">
+                        <section class="fr-accordion">
+                            <h3 class="fr-accordion__title">
+                                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-1">Notice explicative : Accord de Paris vs Kyoto II</button>
+                            </h3>
+                            <div class="fr-collapse" id="accordion-1">
+                                <p>
+                                    L'abrogation vise à se retirer d'un cadre fondé sur des contributions volontaires non contraignantes (susceptibles d'encourager la finance dérégulée), pour revenir à une logique de réduction mécanique et locale des émissions à la source. Ce modèle "Kyoto II" intègre une clause d'interdiction stricte de l'altération artificielle du rayonnement solaire afin de préserver l'intégrité de l'équation métabolique végétale globale.
+                                </p>
+                            </div>
+                        </section>
+                        <section class="fr-accordion">
+                            <h3 class="fr-accordion__title">
+                                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-2">Garanties d'ingénierie démocratique (Zero-Knowledge)</button>
+                            </h3>
+                            <div class="fr-collapse" id="accordion-2">
+                                <p>
+                                    Afin de garantir une souveraineté électorale infaillible, votre décision est chiffrée localement sur votre terminal. Le protocole génère un payload de type <code>vote_encrypted_payload</code> basé sur des preuves à divulgation nulle de connaissance, certifiant l'authenticité de l'électeur sans jamais révéler la nature de son choix aux serveurs centraux.
+                                </p>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- JS : DSFR -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.12.1/dist/dsfr.module.min.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.12.1/dist/dsfr.nomodule.min.js"></script>
+    
+    <!-- Logique d'interception et de simulation de chiffrement -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.getElementById('referendum-form');
+            
+            form.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                
+                const selectedVote = document.querySelector('input[name="vote"]:checked');
+                
+                if (!selectedVote) {
+                    alert("⚠️ Erreur : Veuillez sélectionner une option (OUI, NON ou BLANC) avant de soumettre votre vote.");
+                    return;
+                }
+                
+                // Simulation du payload cryptographique
+                const rawChoice = selectedVote.value;
+                const timestamp = new Date().toISOString();
+                const mockSignature = Math.random().toString(36).substring(2, 15);
+                
+                const payload = {
+                    vote_encrypted_payload: btoa(`${rawChoice}::${timestamp}::${mockSignature}`),
+                    protocol: "ZK-SNARK-V2",
+                    timestamp: timestamp
+                };
+                
+                console.log("[RIC_ENGINE] Transaction générée :", payload);
+                
+                alert(`Succès. Votre vote a été scellé cryptographiquement et transmis au registre souverain.\n\nClé de transaction publique :\n${payload.vote_encrypted_payload}`);
+                
+                // Réinitialisation de l'interface (optionnelle)
+                form.reset();
+            });
+        });
+    </script>
+</body>
+</html>
