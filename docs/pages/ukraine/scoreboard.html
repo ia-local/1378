@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr" data-fr-theme="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Scoreboard - Facilité pour l'Ukraine (Transcription)</title>
+    <!-- Importation du Design System de l'État (DSFR) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/dsfr/dsfr.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/utility/utility.min.css">
+    <!-- Importation de Chart.js pour la Data-Visualisation -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header role="banner" class="fr-header">
+        <div class="fr-header__body">
+            <div class="fr-container">
+                <div class="fr-header__body-row">
+                    <div class="fr-header__brand fr-enlarge-link">
+                        <div class="fr-header__brand-top">
+                            <div class="fr-header__logo">
+                                <p class="fr-logo">
+                                    République<br>Française
+                                </p>
+                            </div>
+                        </div>
+                        <div class="fr-header__service">
+                            <a href="/" title="Retour à l'accueil">
+                                <p class="fr-header__service-title">Analyse Documentaire - Ukraine Facility</p>
+                            </a>
+                            <p class="fr-header__service-tagline">Transcription du Scoreboard (Tableau de bord financier)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main role="main" id="content">
+        <div class="fr-container fr-py-4w">
+            <div class="fr-grid-row">
+                <div class="fr-col-12">
+                    <h1 class="fr-h1">Tableau de bord financier (Scoreboard)</h1>
+                    <p class="fr-text--lead">Transcription des données comptables et de l'état d'avancement des 15 chapitres d'investissement et de réforme.</p>
+                </div>
+            </div>
+
+            <!-- KPIs Section -->
+            <div class="fr-grid-row fr-grid-row--gutters fr-mb-5w">
+                <div class="fr-col-12 fr-col-md-4">
+                    <div class="fr-tile">
+                        <div class="fr-tile__body">
+                            <h3 class="fr-tile__title">Total Décaissé (Net)</h3>
+                            <p class="fr-text--lead fr-text--bold fr-mb-0" style="font-size: 2rem; color: #000091;">29,53 Mds €</p>
+                            <p class="fr-text--sm">Prêts : 25,61 Mds € | Dons : 3,90 Mds €</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fr-col-12 fr-col-md-4">
+                    <div class="fr-tile">
+                        <div class="fr-tile__body">
+                            <h3 class="fr-tile__title">Étapes Franchies</h3>
+                            <p class="fr-text--lead fr-text--bold fr-mb-0" style="font-size: 2rem; color: #000091;">86 / 151</p>
+                            <p class="fr-text--sm">Incluant les préconditions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fr-col-12 fr-col-md-4">
+                    <div class="fr-tile">
+                        <div class="fr-tile__body">
+                            <h3 class="fr-tile__title">Répartition des Actions</h3>
+                            <div style="max-height: 120px; display: flex; justify-content: center;">
+                                <canvas id="reformsChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fr-grid-row fr-grid-row--gutters">
+                <div class="fr-col-12">
+                    <h2 class="fr-h2">Les 15 Chapitres (Secteurs d'Activité)</h2>
+                    <div class="fr-table fr-table--bordered">
+                        <table>
+                            <caption>Répartition de l'avancement par chapitre (Réformes et Investissements)</caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col">N°</th>
+                                    <th scope="col">Intitulé du Chapitre (Secteur d'activité)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>01</td><td>Réforme de l'Administration Publique (Public Administration Reform)</td></tr>
+                                <tr><td>02</td><td>Gestion des Finances Publiques (Public Financial Management)</td></tr>
+                                <tr><td>03</td><td>Système Judiciaire (Judicial System)</td></tr>
+                                <tr><td>04</td><td>Lutte contre la Corruption et le Blanchiment d'Argent (Fighting Corruption and Money Laundering)</td></tr>
+                                <tr><td>05</td><td>Marchés Financiers (Financial Markets)</td></tr>
+                                <tr><td>06</td><td>Gestion des Actifs de l'État (Management of State-Owned Assets)</td></tr>
+                                <tr><td>07</td><td>Capital Humain (Human Capital)</td></tr>
+                                <tr><td>08</td><td>Environnement des Affaires (Business Environment)</td></tr>
+                                <tr><td>09</td><td>Décentralisation et Politique Régionale (Decentralisation and Regional Policy)</td></tr>
+                                <tr><td>10</td><td>Énergie (Energy)</td></tr>
+                                <tr><td>11</td><td>Transport et Logistique (Transport and Logistics)</td></tr>
+                                <tr><td>12</td><td>Agroalimentaire (Agri-Food)</td></tr>
+                                <tr><td>13</td><td>Gestion des Matières Premières Critiques (Management of Critical Raw Materials)</td></tr>
+                                <tr><td>14</td><td>Transformation Numérique (Digital Transformation)</td></tr>
+                                <tr><td>15</td><td>Transition Verte et Protection de l'Environnement (Green Transition and Environmental Protection)</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fr-grid-row fr-grid-row--gutters">
+                <div class="fr-col-12 fr-col-md-6">
+                    <h2 class="fr-h2">Aperçu Financier - Décaissements Engagés</h2>
+                    <canvas id="financeChart"></canvas>
+                </div>
+                <div class="fr-col-12 fr-col-md-6">
+                    <h2 class="fr-h2">Synthèse des premiers versements</h2>
+                    <div class="fr-table fr-table--bordered">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th scope="col">Tranche</th>
+                                    <th scope="col">Dons (EU)</th>
+                                    <th scope="col">Prêts</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>Pré-financement</td><td>0 €</td><td>1,89 Md €</td></tr>
+                                <tr><td>Financement relais</td><td>0 €</td><td>6,00 Md €</td></tr>
+                                <tr><td>Tranche 01</td><td>1,50 Md €</td><td>2,66 Md €</td></tr>
+                                <tr><td>Tranche 02</td><td>1,50 Md €</td><td>2,55 Md €</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="fr-footer" role="contentinfo" id="footer">
+        <div class="fr-container">
+            <div class="fr-footer__body">
+                <div class="fr-footer__brand fr-enlarge-link">
+                    <p class="fr-logo">République<br>Française</p>
+                </div>
+                <div class="fr-footer__content">
+                    <p class="fr-footer__content-desc">Transcription des données issues du Scoreboard de la Commission Européenne (Août 2026).</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts pour l'initialisation des graphiques -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Graphique : Réformes vs Investissements
+            const ctxReforms = document.getElementById('reformsChart').getContext('2d');
+            new Chart(ctxReforms, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Réformes (136)', 'Investissements (15)'],
+                    datasets: [{
+                        data: [136, 15],
+                        backgroundColor: ['#000091', '#00705a'],
+                        borderWidth: 0
+                    }]
+                },
+                options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'right', labels: {font: {size: 10}} } } }
+            });
+
+            // Graphique : Décaissements financiers 
+            const ctxFinance = document.getElementById('financeChart').getContext('2d');
+            new Chart(ctxFinance, {
+                type: 'bar',
+                data: {
+                    labels: ['Pré-financement', 'Relais', 'T01', 'T02', 'T03'],
+                    datasets: [
+                        {
+                            label: 'Prêts (Mds €)',
+                            data: [1.89, 6.00, 2.66, 2.55, 3.08],
+                            backgroundColor: '#000091'
+                        },
+                        {
+                            label: 'Dons (Mds €)',
+                            data: [0, 0, 1.50, 1.50, 0.40],
+                            backgroundColor: '#00705a'
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        x: { stacked: true },
+                        y: { stacked: true, beginAtZero: true }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
