@@ -1,37 +1,34 @@
-<!DOCTYPE html>
 <html lang="fr" data-fr-theme="light">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Dossier d'Investigation : Rupture Fiscale et Procédures Constitutionnelles (Art. 68 & 7)</title>
-    
-    <!-- CSS DSFR Officiel -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.12.1/dist/dsfr.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.12.1/dist/utility/utility.min.css">
-    
+    <title>Procès-Verbal d'Audition - Enquête Financement Politique</title>
+    <!-- Intégration du Système de Design de l'État (DSFR) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/dsfr/dsfr.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/utility/utility.min.css">
     <style>
-        /* Optimisation pour l'impression PDF */
-        @media print {
-            .fr-sidemenu, .fr-header, .fr-footer, .no-print { display: none !important; }
-            .fr-col-md-9 { flex: 0 0 100%; max-width: 100%; }
-            body { font-size: 12pt; }
-            h1, h2, h3 { page-break-after: avoid; }
-            .fr-callout { page-break-inside: avoid; border: 1px solid #ddd; }
+        .pv-header {
+            border-bottom: 2px solid var(--text-title-blue-france);
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
         }
-        /* Style pour simuler l'espacement des pages virtuelles */
-        .page-section {
+        .statement-box {
+            background-color: var(--background-alt-blue-france);
+            padding: 1.5rem;
+            border-left: 4px solid var(--border-action-high-blue-france);
+            margin-bottom: 1.5rem;
+        }
+        .evidence-table th {
+            background-color: var(--background-contrast-grey);
+        }
+        .signature-block {
+            margin-top: 4rem;
+            border-top: 1px dashed var(--border-default-grey);
             padding-top: 2rem;
-            margin-bottom: 4rem;
-            border-bottom: 1px solid #e5e5e5;
-        }
-        .page-section:last-child {
-            border-bottom: none;
         }
     </style>
 </head>
 <body>
-
-    <!-- Header Officiel DSFR -->
     <header role="banner" class="fr-header">
         <div class="fr-header__body">
             <div class="fr-container">
@@ -45,21 +42,10 @@
                             </div>
                         </div>
                         <div class="fr-header__service">
-                            <a href="#" title="Accueil - Rapport d'Investigation">
-                                <p class="fr-header__service-title">Commission d'Analyse Citoyenne</p>
+                            <a href="#" title="Enquête Parlementaire - Projet 1378">
+                                <p class="fr-header__service-title">Commission d'Enquête & Audit Citoyen</p>
                             </a>
-                            <p class="fr-header__service-tagline">Dossier d'investigation sur les mécanismes de destitution et d'empêchement</p>
-                        </div>
-                    </div>
-                    <div class="fr-header__tools no-print">
-                        <div class="fr-header__tools-links">
-                            <ul class="fr-btns-group">
-                                <li>
-                                    <button class="fr-btn fr-icon-printer-line" onclick="window.print()">
-                                        Exporter le rapport (PDF)
-                                    </button>
-                                </li>
-                            </ul>
+                            <p class="fr-header__service-tagline">Instruction des comptes CNCCFP - Projet 1378</p>
                         </div>
                     </div>
                 </div>
@@ -67,160 +53,136 @@
         </div>
     </header>
 
-    <!-- Fil d'Ariane -->
-    <div class="fr-container fr-mt-2v fr-mb-4v">
-        <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
-            <button class="fr-breadcrumb__button" aria-expanded="false" aria-controls="breadcrumb-1">Voir le fil d’Ariane</button>
-            <div class="fr-collapse" id="breadcrumb-1">
-                <ol class="fr-breadcrumb__list">
-                    <li><a class="fr-breadcrumb__link" href="#">Accueil</a></li>
-                    <li><a class="fr-breadcrumb__link" href="#">Dossiers Publics</a></li>
-                    <li><a class="fr-breadcrumb__link" aria-current="page">Rapport d'Investigation Constitutionnelle (2026)</a></li>
-                </ol>
-            </div>
-        </nav>
-    </div>
-
-    <!-- Contenu Principal avec Menu Latéral (Multi-Page simulation) -->
-    <main role="main" id="contenu">
-        <div class="fr-container">
-            <div class="fr-grid-row fr-grid-row--gutters">
-                
-                <!-- Menu Latéral (Navigation inter-pages) -->
-                <div class="fr-col-12 fr-col-md-3">
-                    <nav class="fr-sidemenu fr-sidemenu--sticky" role="navigation" aria-label="Menu latéral">
-                        <div class="fr-sidemenu__inner">
-                            <button class="fr-sidemenu__btn" aria-controls="fr-sidemenu-wrapper" aria-expanded="false">Sommaire du rapport</button>
-                            <div class="fr-collapse" id="fr-sidemenu-wrapper">
-                                <div class="fr-sidemenu__title">Sommaire des sections</div>
-                                <ul class="fr-sidemenu__list">
-                                    <li class="fr-sidemenu__item fr-sidemenu__item--active">
-                                        <a class="fr-sidemenu__link" href="#page-bilan" target="_self">1. Constat Économique Citoyen</a>
-                                    </li>
-                                    <li class="fr-sidemenu__item">
-                                        <a class="fr-sidemenu__link" href="#page-art68" target="_self">2. Article 68 : La Destitution</a>
-                                    </li>
-                                    <li class="fr-sidemenu__item">
-                                        <a class="fr-sidemenu__link" href="#page-art7" target="_self">3. Article 7 : L'Empêchement</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
+    <main role="main" class="fr-container fr-pt-4w fr-pb-8w" id="contenu">
+        
+        <div class="pv-header">
+            <div class="fr-grid-row fr-grid-row--middle">
+                <div class="fr-col-12 fr-col-md-8">
+                    <h1 class="fr-h1 fr-mb-1v">PROCÈS-VERBAL D'AUDITION</h1>
+                    <p class="fr-text--lead fr-mb-0">Compte-rendu d'instruction sur les flux financiers des entités politiques 1378 et 910.</p>
                 </div>
-
-                <!-- Corps du rapport -->
-                <div class="fr-col-12 fr-col-md-9">
-                    
-                    <h1 class="fr-h1">Dossier de Synthèse : Rupture du Contrat Social et Recours Constitutionnels</h1>
-                    <p class="fr-text--lead">Analyse des discordances entre l'effort fiscal quotidien des citoyens (TVA, dettes) et l'action exécutive, et modélisation des procédures de destitution (Art. 68) et d'empêchement médical (Art. 7).</p>
-                    
-                    <!-- PAGE 1 : LE CONSTAT -->
-                    <section id="page-bilan" class="page-section">
-                        <h2 class="fr-h2">1. État des Lieux Économique et Industriel</h2>
-                        
-                        <div class="fr-callout fr-icon-information-line fr-callout--brown-caramel">
-                            <h3 class="fr-callout__title">Déséquilibre Fiscal Quotidien vs Agenda Politique</h3>
-                            <p class="fr-callout__text">
-                                Alors que le citoyen supporte quotidiennement la charge de l'État par la TVA et constate la stagnation du reste-à-vivre, l'agenda présidentiel au premier semestre 2026 affiche seulement <strong>3 prises de parole directes</strong> majeures. Le décalage est accentué par la gestion d'une dette maintenue à plus de 3000 milliards d'euros depuis 2022, malgré 25 ans d'intégration à la zone Euro.
-                            </p>
-                        </div>
-
-                        <h3 class="fr-h4 fr-mt-4w">Démantèlement Industriel et Subventions Internationales</h3>
-                        <p>Le rapport pointe une divergence stratégique fondamentale :</p>
-                        <ul class="fr-badge-group fr-mb-3w">
-                            <li><span class="fr-badge fr-badge--error">Fleurons cédés (Alstom/GE, Sanofi)</span></li>
-                            <li><span class="fr-badge fr-badge--warning">Crise Agricole (Accords Mercosur)</span></li>
-                            <li><span class="fr-badge fr-badge--info">Chômage industriel localisé</span></li>
-                        </ul>
-                        
-                        <p class="fr-text">L'orientation des capitaux publics se focalise sur des crédits internationaux massifs (biodiversité, IA, taxe carbone) et le financement d'efforts de guerre ou de crises (fonds BPI à hauteur de 300 milliards d'euros), au détriment de l'économie circulaire locale.</p>
-                    </section>
-
-                    <!-- PAGE 2 : ARTICLE 68 -->
-                    <section id="page-art68" class="page-section">
-                        <h2 class="fr-h2">2. Procédure de Destitution : L'Article 68</h2>
-                        <p class="fr-text">Face aux dysfonctionnements présumés du chef de l'exécutif (décisions unilatérales contraires aux intérêts nationaux, aliénation du patrimoine industriel), le droit civil ou pénal commun est inopérant en raison de l'immunité présidentielle (Article 67). La seule voie politique est l'Article 68.</p>
-
-                        <div class="fr-table fr-table--layout-fixed">
-                            <table>
-                                <caption>Mécanisme de destitution par la Haute Cour</caption>
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Étapes</th>
-                                        <th scope="col">Action requise</th>
-                                        <th scope="col">Majorité nécessaire</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><strong>1. Proposition</strong></td>
-                                        <td>Signature d'une résolution par les parlementaires d'une des deux chambres.</td>
-                                        <td>1/10 des membres</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>2. Adoption</strong></td>
-                                        <td>Vote de la résolution par l'Assemblée Nationale et le Sénat.</td>
-                                        <td>Majorité des 2/3 (Chaque chambre)</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>3. Haute Cour</strong></td>
-                                        <td>Réunion du Parlement en Haute Cour de Justice. Scrutin secret.</td>
-                                        <td>Majorité des 2/3 de la Haute Cour</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="fr-alert fr-alert--warning fr-mb-4w">
-                            <h3 class="fr-alert__title">Obstacle Démocratique</h3>
-                            <p>Cette procédure est conçue pour être initiée exclusivement par le pouvoir législatif. <strong>Il n'existe aucun mécanisme de référendum d'initiative citoyenne (RIC) ou de saisine directe</strong> permettant au peuple de déclencher la destitution.</p>
-                        </div>
-                    </section>
-
-                    <!-- PAGE 3 : ARTICLE 7 -->
-                    <section id="page-art7" class="page-section">
-                        <h2 class="fr-h2">3. L'Empêchement Clinique : L'Article 7</h2>
-                        <p class="fr-text">Les suspicions émanant de divers collectifs concernant d'éventuelles failles d'ordre psychiatrique (addictions, bipolarité, perte de discernement dans la gestion des fonds de l'État) relèvent d'un cadre juridique spécifique : l'empêchement.</p>
-
-                        <div class="fr-highlight fr-ml-0 fr-mb-4w">
-                            <p class="fr-text--lg">
-                                Le placement sous "tutelle" civile d'un Président est impossible. L'évaluation de ses facultés est soumise au Gouvernement et au Conseil Constitutionnel.
-                            </p>
-                        </div>
-
-                        <h3 class="fr-h5">Protocole d'activation :</h3>
-                        <ol class="fr-list">
-                            <li><strong>Saisine :</strong> Le Gouvernement constate les défaillances (médicales, psychologiques) empêchant l'exercice du mandat.</li>
-                            <li><strong>Arbitrage :</strong> Le Conseil Constitutionnel est saisi par le Gouvernement.</li>
-                            <li><strong>Décision :</strong> Le Conseil statue à la majorité absolue. S'il déclare l'empêchement définitif, le Président du Sénat assure l'intérim.</li>
-                        </ol>
-
-                        <div class="fr-callout">
-                            <p class="fr-callout__text">
-                                <strong>Conclusion Opérationnelle :</strong> Les verrous institutionnels protégeant la fonction présidentielle rendent l'offensive juridique citoyenne obsolète. La sécurisation des citoyens passe aujourd'hui par la construction d'une économie parallèle locale, autonome de la fiscalité d'État.
-                            </p>
-                        </div>
-                    </section>
-
+                <div class="fr-col-12 fr-col-md-4 fr-text--right">
+                    <p class="fr-badge fr-badge--info fr-badge--no-icon">Réf. Dossier : AUD-2026-1378</p><br>
+                    <p class="fr-text--sm fr-mt-1w">Date : 12 août 2026</p>
                 </div>
             </div>
         </div>
+
+        <section class="fr-mb-6w">
+            <h2 class="fr-h3">I. Objet de l'Instruction</h2>
+            <p>
+                Le présent procès-verbal consigne l'analyse des données comptables officielles déposées auprès de la Commission Nationale des Comptes de Campagne et des Financements Politiques (CNCCFP) concernant l'association de financement <strong>« Ensemble ! (Majorité présidentielle) » (Matricule 1378)</strong> et le parti <strong>« Renaissance » (Matricule 910)</strong> pour les exercices 2023 et 2024.
+            </p>
+        </section>
+
+        <section class="fr-mb-6w">
+            <h2 class="fr-h3">II. Constats Matériels et Preuves Comptables</h2>
+            
+            <div class="statement-box">
+                <h3 class="fr-h5">A. Captation de l'Aide Publique sans Dépenses Électorales</h3>
+                <p>L'examen du compte de résultat de l'entité 1378 pour l'exercice 2023 révèle une perception massive d'aides d'État, sans contrepartie d'engagement électoral direct :</p>
+                <div class="fr-table fr-table--bordered">
+                    <table class="evidence-table">
+                        <thead>
+                            <tr>
+                                <th>Ligne Comptable (Entité 1378 - 2023)</th>
+                                <th class="fr-text--right">Montant Constaté</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Aide publique 1ère fraction (Voix)</td>
+                                <td class="fr-text--right">8 826 708 €</td>
+                            </tr>
+                            <tr>
+                                <td>Aide publique 2ème fraction (Élus)</td>
+                                <td class="fr-text--right">10 690 353 €</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Prises en charge de dépenses électorales</strong></td>
+                                <td class="fr-text--right" style="color: var(--text-label-error);"><strong>0 €</strong></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Contributions versées aux candidats</strong></td>
+                                <td class="fr-text--right" style="color: var(--text-label-error);"><strong>0 €</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="statement-box">
+                <h3 class="fr-h5">B. Transmutation des Fonds en "Produits d'Exploitation"</h3>
+                <p>L'instruction a permis de retracer le flux financier sortant de l'entité 1378 vers l'entité 910 (Renaissance). Ce flux démontre une altération de la qualification comptable des deniers publics :</p>
+                <ul class="fr-list">
+                    <li><strong>Reversement centralisé :</strong> Les aides publiques sont transférées sous l'intitulé <em>« Contributions à des partis ou groupements politiques »</em> (19,5 millions d'euros en 2023, 19,4 millions en 2024).</li>
+                    <li><strong>Dilution comptable :</strong> L'entité 910 (Renaissance) affiche <strong>0 €</strong> d'aides publiques directes sur ses bilans 2023 et 2024.</li>
+                    <li><strong>Requalification en Chiffre d'Affaires :</strong> Les fonds transférés par 1378 apparaissent chez 910 à la ligne <em>« Contributions financières de partis »</em>, intégrée aux <strong>« Produits d'exploitation »</strong> (13,3 millions en 2023 ; 13,7 millions en 2024). L'aide publique est ainsi assimilée à un revenu d'entreprise, soustrayant son utilisation aux règles strictes de la comptabilité de campagne.</li>
+                </ul>
+            </div>
+
+            <div class="statement-box">
+                <h3 class="fr-h5">C. De la Comptabilité de Campagne à la Logique de Holding Financière</h3>
+                <p>L'analyse des bilans (Actif/Passif) des différentes entités démontre un dévoiement fondamental de la nature même du financement électoral.</p>
+                <ul class="fr-list">
+                    <li><strong>Rupture du principe d'équilibre électoral :</strong> Dans un compte de campagne (loi électorale), les recettes ne peuvent excéder les dépenses réelles; un excédent n'est pas conservé pour l'enrichissement personnel ou partisan.</li>
+                    <li><strong>Accumulation des excédents (Bilan Passif) :</strong> La transformation des subventions en <em>« Produits d'exploitation »</em> permet aux partis (Renaissance, MoDem, Horizons) de dégager un excédent net. Cet excédent n'est pas restitué, il est inscrit au passif du bilan en tant que <strong>« Réserves »</strong>.</li>
+                    <li><strong>Capitalisation (Bilan Actif) :</strong> Le corollaire de ces réserves se retrouve à l'actif du bilan sous la ligne <strong>« Disponibilités »</strong>. Des millions d'euros issus de l'impôt sont ainsi littéralement thésaurisés, dormant sur des comptes ou placements bancaires, illustrant une gestion d'accumulation propre aux <strong>holdings financières</strong>, aux antipodes du financement dynamique de l'expression démocratique.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="fr-mb-6w">
+            <h2 class="fr-h3">III. Qualifications Pénales Envisagées (Base de Plaidoirie)</h2>
+            <p>Les éléments comptables mis en évidence constituent le socle des poursuites judiciaires demandées :</p>
+            
+            <div class="fr-callout fr-icon-warning-line">
+                <h3 class="fr-callout__title">Art. 313-1 du Code Pénal : Escroquerie</h3>
+                <p class="fr-callout__text">
+                    La transformation d'un vote citoyen en rente financière via un "guichet unique" (1378), suivie du blanchiment de cette aide publique en "Produit d'exploitation" au sein d'une seconde entité (910), caractérise l'utilisation de manœuvres frauduleuses pour tromper l'État et obtenir la remise de fonds de manière opaque.
+                </p>
+            </div>
+
+            <div class="fr-callout fr-icon-warning-line fr-mt-2w">
+                <h3 class="fr-callout__title">Art. 432-12 du Code Pénal : Prise Illégale d'Intérêts</h3>
+                <p class="fr-callout__text">
+                    La gestion de l'entité 1378 comme une structure de "holding" financière (qui perçoit sans dépenser pour les campagnes, puis reverse aux états-majors) prive la CNCCFP et le citoyen de la garantie que les deniers publics financent effectivement l'expression démocratique, et non des intérêts partisans privés.
+                </p>
+            </div>
+        </section>
+
+        <section class="signature-block">
+            <div class="fr-grid-row">
+                <div class="fr-col-12 fr-col-md-6">
+                    <p class="fr-text--bold">Décisions requises :</p>
+                    <ul class="fr-list">
+                        <li>Saisie des écritures comptables détaillées des entités 1378, 910, 529 et 1501.</li>
+                        <li>Levée de l'anonymat sur les accords de reversement intra-coalition.</li>
+                        <li>Transmission du dossier au Parquet National Financier (PNF).</li>
+                    </ul>
+                </div>
+                <div class="fr-col-12 fr-col-md-6 fr-text--right">
+                    <p>Fait pour valoir ce que de droit,<br>Le Rapporteur de l'Instruction Citoyenne.</p>
+                    <p class="fr-text--sm fr-mt-4w"><em>[Signature de l'Instructeur / Audit]</em></p>
+                </div>
+            </div>
+        </section>
+        
     </main>
 
-    <!-- Footer DSFR -->
     <footer class="fr-footer" role="contentinfo" id="footer">
         <div class="fr-container">
             <div class="fr-footer__body">
                 <div class="fr-footer__brand fr-enlarge-link">
-                    <p class="fr-logo" title="république française">
+                    <p class="fr-logo">
                         République<br>Française
                     </p>
                 </div>
                 <div class="fr-footer__content">
-                    <p class="fr-footer__content-desc">Ce document a été généré via le framework DSFR. Il constitue un outil de modélisation et d'analyse juridique citoyenne mis à disposition pour l'étude des institutions de la Ve République.</p>
+                    <p class="fr-footer__content-desc">Dôme d'Initiative Citoyenne - Instance de contrôle (RIC_ENGINE). Document généré pour la préservation de la transparence démocratique.</p>
                     <ul class="fr-footer__content-list">
                         <li class="fr-footer__content-item">
-                            <a class="fr-footer__content-link" href="https://www.legifrance.gouv.fr">legifrance.gouv.fr</a>
+                            <a class="fr-footer__content-link" target="_blank" href="https://github.com/ia-local/1378">Dossier /1378 (Pièces à conviction)</a>
                         </li>
                     </ul>
                 </div>
@@ -228,19 +190,15 @@
             <div class="fr-footer__bottom">
                 <ul class="fr-footer__bottom-list">
                     <li class="fr-footer__bottom-item">
-                        <span class="fr-footer__bottom-link">Document non-officiel à but d'investigation.</span>
+                        <span class="fr-footer__bottom-link">Formaté selon les normes W3C & DSFR</span>
                     </li>
                 </ul>
-                <div class="fr-footer__bottom-copy">
-                    <p>Sauf mention contraire, tous les contenus de ce site sont sous <a href="https://github.com/etalab/licence-ouverte/blob/master/LO.md" target="_blank">licence etalab-2.0</a></p>
-                </div>
             </div>
         </div>
     </footer>
 
     <!-- Scripts DSFR -->
-    <script type="module" src="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.12.1/dist/dsfr.module.min.js"></script>
-    <script type="text/javascript" nomodule src="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.12.1/dist/dsfr.nomodule.min.js"></script>
-
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/dsfr/dsfr.module.min.js"></script>
+    <script type="text/javascript" nomodule src="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/dsfr/dsfr.nomodule.min.js"></script>
 </body>
 </html>
