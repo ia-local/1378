@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Génération des listes HTML à partir du JSON
             const entitiesHtml = item.entities.map(e => `<span class="fr-badge fr-badge--info fr-mr-1v">${e}</span>`).join('');
             const mechanismsHtml = item.accounting_mechanisms.map(mech => `<li>${mech}</li>`).join('');
-            const filesHtml = item.files.map(file => `<li><a class="fr-link fr-link--download" href="https://github.com/ia-local/1378/docs/data/${item.year.substring(0,4)}/${file}" download>${file}</a></li>`).join('');
+            const filesHtml = item.files.map(file => `<li><a class="fr-link fr-link--download" href="https://github.com/ia-local/1378/tree/main/docs/data/${item.year.substring(0,4)}/${file}" download>${file}</a></li>`).join('');
 
             // Génération du tableau financier si les données existent
             let financialHtml = '';
