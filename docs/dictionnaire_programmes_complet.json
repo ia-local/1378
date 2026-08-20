@@ -1,0 +1,2156 @@
+{
+  "101": {
+    "code": "101",
+    "libelle": "Accès au droit et à la justice",
+    "mission": "Justice",
+    "ministere": "Justice",
+    "total_cp": 806651453,
+    "actions": {
+      "Aide juridictionnelle": 712334633,
+      "Développement de l'accès au droit et du réseau judiciaire de proximité": 14282174,
+      "Aide aux victimes": 57839779,
+      "Médiation et espaces de rencontre": 15494867,
+      "Indemnisation des avoués": 5700000,
+      "Subvention au fonds de financement des dossiers impécunieux": 1000000
+    }
+  },
+  "102": {
+    "code": "102",
+    "libelle": "Accès et retour à l'emploi",
+    "mission": "Travail, emploi et administration des ministères sociaux",
+    "ministere": "Travail et solidarités",
+    "total_cp": 6886589997,
+    "actions": {
+      "Indemnisation des demandeurs d'emploi": 2062314732,
+      "Structures de mise en oeuvre de la politique de l'emploi": 1928479613,
+      "Accompagnement des personnes les plus éloignées du marché du travail- Fonds d'inclusion dans l'emploi": 1954592325,
+      "Insertion des jeunes sur le marché du travail- Contrat d'engagement jeunes (CEJ)": 941203327
+    }
+  },
+  "103": {
+    "code": "103",
+    "libelle": "Accompagnement des mutations économiques et développement de l'emploi",
+    "mission": "Travail, emploi et administration des ministères sociaux",
+    "ministere": "Travail et solidarités",
+    "total_cp": 11804336961,
+    "actions": {
+      "Développement des compétences par l'alternance": 3830747230,
+      "Formation professionnelle des demandeurs d'emploi": 753866068,
+      "Anticipation et accompagnement des conséquences des mutations économiques sur l'emploi": 281200145,
+      "Financement des structures de la formation professionnelle et de l'emploi": 573408234,
+      "Actions pour favoriser la mise en activité professionnelle des demandeurs d'emploi": 6365115284
+    }
+  },
+  "104": {
+    "code": "104",
+    "libelle": "Intégration et accès à la nationalité française",
+    "mission": "Immigration, asile et intégration",
+    "ministere": "Intérieur",
+    "total_cp": 363857369,
+    "actions": {
+      "Accueil des étrangers primo arrivants": 264292875,
+      "Intégration des étrangers primo-arrivants": 96760000,
+      "Accès à la nationalité française": 1471372,
+      "Accompagnement des résidents des foyers de travailleurs migrants": 1333122
+    }
+  },
+  "105": {
+    "code": "105",
+    "libelle": "Action de la France en Europe et dans le monde",
+    "mission": "Action extérieure de l'État",
+    "ministere": "Europe et affaires étrangères",
+    "total_cp": 2690168428,
+    "actions": {
+      "Coordination de l'action diplomatique": 132695459,
+      "Action européenne": 170890992,
+      "Dépenses de personnel concourant au programme \"Diplomatie culturelle et d'influence\"": 93553293,
+      "Contributions internationales": 602869335,
+      "Coopération de sécurité et de défense": 118094690,
+      "Soutien": 308699429,
+      "Réseau diplomatique": 783914615,
+      "Dépenses de personnels concourant au programme \"Solidarité à l'égard des pays en développement\"": 178790737,
+      "Personnel concourant à l'action \"Offre d'un service public de qualité aux français à l'étranger\"": 214133092,
+      "Personnel concourant à l'action \"Instruction des demandes de visa\"": 66526786,
+      "Présidence française du G7": 20000000
+    }
+  },
+  "107": {
+    "code": "107",
+    "libelle": "Administration pénitentiaire",
+    "mission": "Justice",
+    "ministere": "Justice",
+    "total_cp": 5505481850,
+    "actions": {
+      "Garde et contrôle des personnes placées sous main de justice": 3872709057,
+      "Accueil et accompagnement des personnes placées sous main de justice": 1194405739,
+      "Soutien et formation": 438367054
+    }
+  },
+  "109": {
+    "code": "109",
+    "libelle": "Aide à l'accès au logement",
+    "mission": "Cohésion des territoires",
+    "ministere": "Ville et logement",
+    "total_cp": 16572135643,
+    "actions": {
+      "Aides personnelles": 16562735643,
+      "Information relative au logement et accompagnement des publics en difficulté": 9400000
+    }
+  },
+  "110": {
+    "code": "110",
+    "libelle": "Aide économique et financière au développement",
+    "mission": "Aide publique au développement",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 1238281282,
+    "actions": {
+      "Aide économique et financière multilatérale": 573743754,
+      "Aide économique et financière bilatérale": 579113758,
+      "Traitement de la dette des pays pauvres": 85423770
+    }
+  },
+  "111": {
+    "code": "111",
+    "libelle": "Amélioration de la qualité de l'emploi et des relations du travail",
+    "mission": "Travail, emploi et administration des ministères sociaux",
+    "ministere": "Travail et solidarités",
+    "total_cp": 76324840,
+    "actions": {
+      "Santé et sécurité au travail": 24007893,
+      "Qualité et effectivité du droit": 11332225,
+      "Dialogue social et démocratie sociale": 40984722
+    }
+  },
+  "112": {
+    "code": "112",
+    "libelle": "Impulsion et coordination de la politique d'aménagement du territoire",
+    "mission": "Cohésion des territoires",
+    "ministere": "Aménagement du territoire et de la décentralisation",
+    "total_cp": 265029580,
+    "actions": {
+      "FNADT section locale": 78887510,
+      "FNADT section générale": 114605739,
+      "Soutien aux Opérateurs": 67646442,
+      "Prime d'aménagement du territoire, contrats de ruralité et pacte Etat-métropoles": 3889889
+    }
+  },
+  "113": {
+    "code": "113",
+    "libelle": "Paysages, eau et biodiversité",
+    "mission": "Écologie, développement et mobilité durables",
+    "ministere": "Transition écologique, biodiversité et négociations internationales sur le climat et la nature",
+    "total_cp": 391492384,
+    "actions": {
+      "Sites, paysages, publicité": 9565114,
+      "Innovation, territorialisation et contentieux": 10762384,
+      "Gestion des milieux et biodiversité": 371164886
+    }
+  },
+  "114": {
+    "code": "114",
+    "libelle": "Appels en garantie de l'État (crédits évaluatifs)",
+    "mission": "Engagements financiers de l'État",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 790362961,
+    "actions": {
+      "Agriculture et environnement": 200000,
+      "Soutien au domaine social, logement, santé": 21170000,
+      "Financement des entreprises et industrie": 538040190,
+      "Développement international de l'économie française": 68600000,
+      "Autres garanties": 162352771
+    }
+  },
+  "117": {
+    "code": "117",
+    "libelle": "Charge de la dette et trésorerie de l'État (crédits évaluatifs)",
+    "mission": "Engagements financiers de l'État",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 58615000000,
+    "actions": {
+      "Dette": 58016000000,
+      "Trésorerie": 599000000
+    }
+  },
+  "119": {
+    "code": "119",
+    "libelle": "Concours financiers aux collectivités territoriales et à leurs groupements",
+    "mission": "Relations avec les collectivités territoriales",
+    "ministere": "Aménagement du territoire et de la décentralisation",
+    "total_cp": 3642120563,
+    "actions": {
+      "Soutien aux projets des communes et groupements de communes": 1764266272,
+      "Dotation générale de décentralisation des communes": 191073209,
+      "Soutien aux projets des départements et des régions": 106688798,
+      "Dotation générale de décentralisation des départements": 265415504,
+      "Dotation générale de décentralisation des régions": 945272307,
+      "Dotation générale de décentralisation concours particuliers": 274428807,
+      "Dotation de soutien à l'investissement local exceptionnelle": 94975666
+    }
+  },
+  "122": {
+    "code": "122",
+    "libelle": "Concours spécifiques et administration",
+    "mission": "Relations avec les collectivités territoriales",
+    "ministere": "Aménagement du territoire et de la décentralisation",
+    "total_cp": 316923518,
+    "actions": {
+      "Aides exceptionnelles aux collectivités territoriales": 151060528,
+      "Administration des relations avec les collectivités territoriales": 12904424,
+      "Dotations Outre-Mer": 152958566
+    }
+  },
+  "123": {
+    "code": "123",
+    "libelle": "Conditions de vie outre-mer",
+    "mission": "Outre-mer",
+    "ministere": "Outre-Mer",
+    "total_cp": 1141003780,
+    "actions": {
+      "Logement": 209364692,
+      "Aménagement  du territoire": 216543923,
+      "Continuité territoriale": 86017949,
+      "Sanitaire, social, culture, jeunesse et sports": 17490672,
+      "Collectivités territoriales": 502684593,
+      "Insertion économique et coopération régionales": 960748,
+      "Fonds exceptionnel d'investissement": 33741350,
+      "Appui à l'accès aux financements bancaires": 74199853
+    }
+  },
+  "126": {
+    "code": "126",
+    "libelle": "Conseil économique, social et environnemental",
+    "mission": "Conseil et contrôle de l'État",
+    "ministere": "Services du Premier ministre",
+    "total_cp": 34002566,
+    "actions": {
+      "Travaux consultatifs": 12361852,
+      "Fonctions supports à l'institution": 21640714
+    }
+  },
+  "129": {
+    "code": "129",
+    "libelle": "Coordination du travail gouvernemental",
+    "mission": "Direction de l'action du Gouvernement",
+    "ministere": "Services du Premier ministre",
+    "total_cp": 912311113,
+    "actions": {
+      "Coordination du travail gouvernemental": 109594744,
+      "Coordination de la sécurité et de la défense": 427081591,
+      "Coordination de la politique européenne": 19229825,
+      "Soutien": 158217305,
+      "Stratégie et prospective": 23098039,
+      "Ordre de la Légion d'honneur": 30883062,
+      "Mission interministérielle de lutte contre les drogues et les conduites addictives": 15214473,
+      "Coordination de la politique numérique": 81498691,
+      "Coordination de la politique des ressources humaines en matière d’encadrement supérieur et dirigeant de l’Etat": 47493383
+    }
+  },
+  "131": {
+    "code": "131",
+    "libelle": "Création",
+    "mission": "Culture",
+    "ministere": "Culture",
+    "total_cp": 997839481,
+    "actions": {
+      "Soutien à la création, à la production et à la diffusion du spectacle vivant": 775789245,
+      "Soutien à la création, à la production et à la diffusion des arts visuels": 152331076,
+      "Soutien à l'emploi et structurations des professions": 69719160
+    }
+  },
+  "134": {
+    "code": "134",
+    "libelle": "Développement des entreprises et régulations",
+    "mission": "Économie",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 2080478519,
+    "actions": {
+      "Développement des postes, des télécommunications et du numérique": 633108694,
+      "Développement international des entreprises et attractivité du territoire": 168411551,
+      "Expertise, conseil et inspection": 17337810,
+      "Régulation des communications électroniques, des postes et de la distribution de la presse (ARCEP)": 25496092,
+      "Mise en oeuvre du droit de la concurrence (Autorité de la concurrence)": 27809089,
+      "Industrie et services": 922190846,
+      "Régulation concurrentielle des marchés, protection économique et sécurité du consommateur": 270824879,
+      "Mesures exceptionnelles dans le cadre de la crise sanitaire": 15299558
+    }
+  },
+  "135": {
+    "code": "135",
+    "libelle": "Urbanisme, territoires et amélioration de l'habitat",
+    "mission": "Cohésion des territoires",
+    "ministere": "Ville et logement",
+    "total_cp": 1945445390,
+    "actions": {
+      "Construction locative et amélioration du parc": 78950000,
+      "Soutien à l'accession à la propriété": 6580000,
+      "Lutte contre l'habitat indigne": 11200000,
+      "Réglementation, politique technique et qualité de la construction": 1519003056,
+      "Innovation, territorialisation et services numériques": 45430000,
+      "Urbanisme et aménagement": 284282334
+    }
+  },
+  "137": {
+    "code": "137",
+    "libelle": "Égalité entre les femmes et les hommes",
+    "mission": "Solidarité, insertion et égalité des chances",
+    "ministere": "Services du Premier ministre",
+    "total_cp": 98647590,
+    "actions": {
+      "Soutien du programme égalité entre les femmes et les hommes": 784357,
+      "Accès aux droits et égalité professionnelle": 23650773,
+      "Prévention et lutte contre les violences et la prostitution": 47841005,
+      "Aide universelle d'urgence pour les personnes victimes de violences conjugales": 26371455
+    }
+  },
+  "138": {
+    "code": "138",
+    "libelle": "Emploi outre-mer",
+    "mission": "Outre-mer",
+    "ministere": "Outre-Mer",
+    "total_cp": 2136442391,
+    "actions": {
+      "Soutien aux entreprises": 1805813283,
+      "Aide à l'insertion et à la qualification professionnelle": 307399409,
+      "Pilotage des politiques des outre-mer": 3338867,
+      "Financement de l'économie": 19890832
+    }
+  },
+  "139": {
+    "code": "139",
+    "libelle": "Enseignement privé du premier et du second degrés",
+    "mission": "Enseignement scolaire",
+    "ministere": "Éducation nationale",
+    "total_cp": 8870628702,
+    "actions": {
+      "Enseignement pré-élémentaire": 608122438,
+      "Enseignement élémentaire": 1616053613,
+      "Enseignement en collège": 2278544499,
+      "Enseignement général et technologique en lycée": 1518613933,
+      "Enseignement professionnel sous statut scolaire": 983347536,
+      "Enseignement post-baccalauréat en lycée": 306086677,
+      "Dispositifs spécifiques de scolarisation": 197467611,
+      "Actions sociales en faveur des élèves": 83718870,
+      "Fonctionnement des établissements": 710897348,
+      "Formation des personnels enseignants": 99101317,
+      "Remplacement": 224711913,
+      "Soutien": 243962947
+    }
+  },
+  "140": {
+    "code": "140",
+    "libelle": "Enseignement scolaire public du premier degré",
+    "mission": "Enseignement scolaire",
+    "ministere": "Éducation nationale",
+    "total_cp": 27912141280,
+    "actions": {
+      "Enseignement pré-élémentaire": 6947873324,
+      "Enseignement élémentaire": 14122163997,
+      "Besoins éducatifs particuliers": 2348151894,
+      "Formation des personnels enseignants": 417976968,
+      "Remplacement": 2301116111,
+      "Pilotage et encadrement pédagogique": 1652625255,
+      "Personnels en situations diverses": 122233731
+    }
+  },
+  "141": {
+    "code": "141",
+    "libelle": "Enseignement scolaire public du second degré",
+    "mission": "Enseignement scolaire",
+    "ministere": "Éducation nationale",
+    "total_cp": 40001618399,
+    "actions": {
+      "Enseignement en collège": 14061942467,
+      "Enseignement général et technologique en lycée": 9312792384,
+      "Enseignement professionnel sous statut scolaire": 5547219384,
+      "Apprentissage": 8315198,
+      "Enseignement post-baccalauréat en lycée": 2562953043,
+      "Besoins éducatifs particuliers": 1544276540,
+      "Aide à l'insertion professionnelle": 64927377,
+      "Information et orientation": 390495329,
+      "Formation continue des adultes et validation des acquis de l'expérience": 150276680,
+      "Formation des personnels enseignants et d'orientation": 289450801,
+      "Remplacement": 1751026131,
+      "Pilotage, administration et encadrement pédagogique": 4204761884,
+      "Personnels en situations diverses": 113181181
+    }
+  },
+  "142": {
+    "code": "142",
+    "libelle": "Enseignement supérieur et recherche agricoles",
+    "mission": "Recherche et enseignement supérieur",
+    "ministere": "Agriculture, agro-alimentaire et souveraineté alimentaire",
+    "total_cp": 426640438,
+    "actions": {
+      "Enseignement supérieur": 392316082,
+      "Recherche, développement et transfert de technologie": 34324356
+    }
+  },
+  "143": {
+    "code": "143",
+    "libelle": "Enseignement technique agricole",
+    "mission": "Enseignement scolaire",
+    "ministere": "Agriculture, agro-alimentaire et souveraineté alimentaire",
+    "total_cp": 1729932604,
+    "actions": {
+      "Enseignement public": 920709718,
+      "Enseignement privé": 679714532,
+      "Aide sociale aux élèves et santé scolaire": 74417730,
+      "Actions pédagogiques et éducatives": 5312828,
+      "Moyens communs à l'enseignement technique agricole": 49777796
+    }
+  },
+  "144": {
+    "code": "144",
+    "libelle": "Environnement et prospective de la politique de défense",
+    "mission": "Défense",
+    "ministere": "Armées et anciens combattants",
+    "total_cp": 2268486422,
+    "actions": {
+      "Recherche et exploitation du renseignement intéressant la sécurité de la France": 572313385,
+      "Prospective de défense": 1598143353,
+      "Relations internationales et diplomatie de défense": 98029684
+    }
+  },
+  "145": {
+    "code": "145",
+    "libelle": "Épargne",
+    "mission": "Engagements financiers de l'État",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 96166608,
+    "actions": {
+      "Épargne logement": 95902608,
+      "Instruments de financement du logement": 264000
+    }
+  },
+  "146": {
+    "code": "146",
+    "libelle": "Équipement des forces",
+    "mission": "Défense",
+    "ministere": "Armées et anciens combattants",
+    "total_cp": 22845477309,
+    "actions": {
+      "Dissuasion": 6115521552,
+      "Commandement et maîtrise de l'information": 4166046132,
+      "Projection - mobilité - soutien": 2776539268,
+      "Engagement et combat": 7339874980,
+      "Protection et sauvegarde": 2041751727,
+      "Préparation et conduite des opérations d'armement": 348331303,
+      "Soutien à l’effort de défense de pays tiers": 57412347
+    }
+  },
+  "147": {
+    "code": "147",
+    "libelle": "Politique de la ville",
+    "mission": "Cohésion des territoires",
+    "ministere": "Ville et logement",
+    "total_cp": 636746960,
+    "actions": {
+      "Actions territorialisées et Dispositifs spécifiques de la politique de la ville": 466439926,
+      "Revitalisation économique et emploi": 41543714,
+      "Stratégie, ressources et évaluation": 19143320,
+      "Rénovation urbaine et amélioration du cadre de vie": 109620000
+    }
+  },
+  "148": {
+    "code": "148",
+    "libelle": "Fonction publique",
+    "mission": "Transformation et fonction publiques",
+    "ministere": "Action et comptes publics",
+    "total_cp": 226212084,
+    "actions": {
+      "Formation des fonctionnaires": 77073184,
+      "Action sociale interministérielle": 119965653,
+      "Appui et innovation des ressources humaines": 29173247
+    }
+  },
+  "149": {
+    "code": "149",
+    "libelle": "Compétitivité et durabilité de l'agriculture, de l'agroalimentaire et de la forêt",
+    "mission": "Agriculture, alimentation, forêt et affaires rurales",
+    "ministere": "Agriculture, agro-alimentaire et souveraineté alimentaire",
+    "total_cp": 2188026962,
+    "actions": {
+      "Adaptation des filières à l'évolution des marchés": 226976249,
+      "Gestion des crises et des aléas de la production agricole": 211186256,
+      "Appui au renouvellement et à la modernisation des exploitations agricoles": 105460272,
+      "Gestion équilibrée et durable des territoires": 556427462,
+      "Protection sociale": 135518483,
+      "Gestion durable de la forêt et développement de la filière bois": 291787394,
+      "Moyens de mise en oeuvre des politiques publiques et gestion des interventions": 478132500,
+      "Planification écologique": 182538346
+    }
+  },
+  "150": {
+    "code": "150",
+    "libelle": "Formations supérieures et recherche universitaire",
+    "mission": "Recherche et enseignement supérieur",
+    "ministere": "Enseignement supérieur, recherche et espace",
+    "total_cp": 15724196101,
+    "actions": {
+      "Formation initiale et continue du baccalauréat à la licence": 4094631337,
+      "Formation initiale et continue de niveau master": 2832998665,
+      "Formation initiale et continue de niveau doctorat": 548904553,
+      "Établissements d'enseignement privés": 94895852,
+      "Bibliothèques et documentation": 500763866,
+      "Diffusion des savoirs et musées": 144038710,
+      "Immobilier": 1214467028,
+      "Pilotage et support du programme": 1876469727,
+      "Recherche": 4417026363
+    }
+  },
+  "151": {
+    "code": "151",
+    "libelle": "Français à l'étranger et affaires consulaires",
+    "mission": "Action extérieure de l'État",
+    "ministere": "Europe et affaires étrangères",
+    "total_cp": 152930677,
+    "actions": {
+      "Offre d'un service public de qualité aux Français à l'étranger": 44586057,
+      "Accès des élèves français au réseau AEFE et à la langue française": 106144620,
+      "Instruction des demandes de visa": 2200000
+    }
+  },
+  "152": {
+    "code": "152",
+    "libelle": "Gendarmerie nationale",
+    "mission": "Sécurités",
+    "ministere": "Intérieur",
+    "total_cp": 11054908790,
+    "actions": {
+      "Ordre et sécurité publics": 4242221211,
+      "Sécurité routière": 834536133,
+      "Missions de police judiciaire et concours à la justice": 2693111689,
+      "Commandement, ressources humaines et logistique": 3113552156,
+      "Exercice des missions militaires": 171487601
+    }
+  },
+  "155": {
+    "code": "155",
+    "libelle": "Soutien des ministères sociaux",
+    "mission": "Travail, emploi et administration des ministères sociaux",
+    "ministere": "Travail et solidarités",
+    "total_cp": 2053300137,
+    "actions": {
+      "Soutien au plan d'investissement dans les compétences": 8463555,
+      "Personnels mettant en œuvre les politiques de l'emploi et de la formation professionnelle": 209536076,
+      "Personnels mettant en œuvre les politiques sociales et de la santé": 318713193,
+      "Personnels mettant en œuvre les politiques d'amélioration de la qualité de l'emploi et des relations du travail": 372830299,
+      "Personnels mettant en œuvre les politiques de l'égalité entre les femmes et les hommes": 16140479,
+      "Personnels transversaux et de soutien": 160058961,
+      "Affaires immobilières": 125704310,
+      "Affaires européennes et internationales": 3265937,
+      "Financement des agences régionales de santé": 625912248,
+      "Politique des ressources humaines": 51420454,
+      "Fonctionnement des services": 23205116,
+      "Systèmes d'information": 103204405,
+      "Communication": 15506114,
+      "Etudes, statistiques, évaluation et recherche": 19338990
+    }
+  },
+  "156": {
+    "code": "156",
+    "libelle": "Gestion fiscale et financière de l'État et du secteur public local",
+    "mission": "Gestion des finances publiques",
+    "ministere": "Action et comptes publics",
+    "total_cp": 8211144387,
+    "actions": {
+      "Fiscalité des grandes entreprises": 137354957,
+      "Fiscalité des PME": 1633801484,
+      "Fiscalité des particuliers et fiscalité directe locale": 2057101559,
+      "Gestion financière de l'État hors fiscalité": 947919973,
+      "Gestion des pensions": 91032806,
+      "Gestion financière du secteur public local hors fiscalité": 1330225279,
+      "Gestion des fonds déposés": 58074847,
+      "Soutien": 1933886072,
+      "Élaboration de la législation fiscale": 21747410
+    }
+  },
+  "157": {
+    "code": "157",
+    "libelle": "Handicap et dépendance",
+    "mission": "Solidarité, insertion et égalité des chances",
+    "ministere": "Santé, familles, autonomie et personnes handicapées",
+    "total_cp": 16397720590,
+    "actions": {
+      "Allocations et aides en faveur des personnes handicapées": 16371120046,
+      "Pilotage du programme et animation des politiques inclusives": 26600544
+    }
+  },
+  "158": {
+    "code": "158",
+    "libelle": "Indemnisation des victimes des persécutions antisémites et des actes de barbarie pendant la seconde guerre mondiale",
+    "mission": "Monde combattant, mémoire et liens avec la Nation",
+    "ministere": "Services du Premier ministre",
+    "total_cp": 76423848,
+    "actions": {
+      "Indemnisation des orphelins de la déportation et des victimes de spoliations du fait des législations antisémites en vigueur pendant l'Occupation": 32573652,
+      "Indemnisation des victimes d'actes de barbarie durant la seconde guerre mondiale": 43850196
+    }
+  },
+  "159": {
+    "code": "159",
+    "libelle": "Expertise, information géographique et météorologie",
+    "mission": "Écologie, développement et mobilité durables",
+    "ministere": "Transition écologique, biodiversité et négociations internationales sur le climat et la nature",
+    "total_cp": 668201542,
+    "actions": {
+      "Gouvernance, évaluation, études et prospective en matière de développement durable": 18362178,
+      "Etudes et expertise en matière de développement durable": 185639642,
+      "Information géographique et cartographique": 100130062,
+      "Météorologie": 266509888,
+      "Recherche dans le domaine des transports, de la construction et de l'aménagement": 97559772
+    }
+  },
+  "161": {
+    "code": "161",
+    "libelle": "Sécurité civile",
+    "mission": "Sécurités",
+    "ministere": "Intérieur",
+    "total_cp": 874722402,
+    "actions": {
+      "Prévention et gestion de crises": 66047722,
+      "Préparation et interventions spécialisées des moyens nationaux": 568507032,
+      "Soutien aux acteurs de la sécurité civile": 203191675,
+      "Fonctionnement, soutien et logistique": 36975973
+    }
+  },
+  "162": {
+    "code": "162",
+    "libelle": "Interventions territoriales de l'État",
+    "mission": "Cohésion des territoires",
+    "ministere": "Services du Premier ministre",
+    "total_cp": 80097672,
+    "actions": {
+      "Eau - Agriculture en Bretagne": 1714336,
+      "Plans d'investissement pour la Corse": 49632370,
+      "Volet territorialisé du plan national d'action chlordécone": 4084102,
+      "Plan littoral 21": 6516943,
+      "Fonds interministériel pour la transformation de la Guyane": 9400247,
+      "Service d'incendie et de secours à Wallis-et-Futuna": 2049674,
+      "Plan Sargasses II": 6700000
+    }
+  },
+  "163": {
+    "code": "163",
+    "libelle": "Jeunesse et vie associative",
+    "mission": "Sport, jeunesse et vie associative",
+    "ministere": "Sports, jeunesse et vie associative",
+    "total_cp": 647014895,
+    "actions": {
+      "Développement de la vie associative": 43252595,
+      "Actions en faveur de la jeunesse et de l'éducation populaire": 109497783,
+      "Développement du service civique": 494264517
+    }
+  },
+  "164": {
+    "code": "164",
+    "libelle": "Cour des comptes et autres juridictions financières",
+    "mission": "Conseil et contrôle de l'État",
+    "ministere": "Services du Premier ministre",
+    "total_cp": 266591544,
+    "actions": {
+      "Examen des comptes publics": 53976535,
+      "Contrôle des finances publiques": 20653464,
+      "Contrôle des gestions publiques": 77035403,
+      "Evaluation des politiques publiques": 43300796,
+      "Information des citoyens": 9223695,
+      "Mise en jeu de la responsabilité des comptables publics et des gestionnaires publics": 6194835,
+      "Pilotage et soutien des juridictions financières": 54750768,
+      "Gouvernance des Finances publiques": 1456048
+    }
+  },
+  "165": {
+    "code": "165",
+    "libelle": "Conseil d'État et autres juridictions administratives",
+    "mission": "Conseil et contrôle de l'État",
+    "ministere": "Services du Premier ministre",
+    "total_cp": 565522614,
+    "actions": {
+      "Fonction juridictionnelle : Conseil d'État": 36351408,
+      "Fonction juridictionnelle : Cours administratives d'appel": 67637629,
+      "Fonction juridictionnelle : Tribunaux administratifs": 217766830,
+      "Fonction consultative": 18239114,
+      "Fonction études, expertise et services rendus aux administrations de l'État et des collectivités": 9188656,
+      "Soutien": 154789741,
+      "Cour nationale du droit d'asile": 52255173,
+      "Tribunal du stationnement payant": 9294063
+    }
+  },
+  "166": {
+    "code": "166",
+    "libelle": "Justice judiciaire",
+    "mission": "Justice",
+    "ministere": "Justice",
+    "total_cp": 4742409588,
+    "actions": {
+      "Traitement et jugement des contentieux civils": 1435335963,
+      "Conduite de la politique pénale et jugement des affaires pénales": 1665517405,
+      "Cassation": 85875207,
+      "Enregistrement des décisions judiciaires": 13159689,
+      "Soutien": 1310848200,
+      "Formation": 218133475,
+      "Support à l'accès au droit et à la justice": 13539649
+    }
+  },
+  "169": {
+    "code": "169",
+    "libelle": "Reconnaissance et réparation en faveur du monde combattant, mémoire et liens avec la Nation",
+    "mission": "Monde combattant, mémoire et liens avec la Nation",
+    "ministere": "Armées et anciens combattants",
+    "total_cp": 1653563926,
+    "actions": {
+      "PMI, droits et soutien aux invalides": 714902154,
+      "Reconnaissance envers le monde combattant": 757902869,
+      "Actions en faveur des rapatriés": 114899010,
+      "Liens armées-jeunesse": 40067551,
+      "Politique de mémoire": 25792342
+    }
+  },
+  "172": {
+    "code": "172",
+    "libelle": "Recherches scientifiques et technologiques pluridisciplinaires",
+    "mission": "Recherche et enseignement supérieur",
+    "ministere": "Enseignement supérieur, recherche et espace",
+    "total_cp": 8176112918,
+    "actions": {
+      "Pilotage et animation": 328127055,
+      "Agence nationale de la recherche": 1038130000,
+      "Recherches interdisciplinaires et transversales": 81931880,
+      "Diffusion, valorisation et transfert des connaissances et des technologies": 173671500,
+      "Grandes infrastructures de recherche": 337705000,
+      "Moyens généraux et d'appui à la recherche": 1137415710,
+      "Recherches scientifiques et technologiques en sciences de la vie et de la santé": 1424155162,
+      "Recherches scientifiques et technologiques en sciences et techniques de l'information": 1099015820,
+      "Recherches scientifiques et technologiques dans le domaine de l'énergie": 849783551,
+      "Recherches scientifiques et technologiques dans le domaine de l'environnement": 1261205210,
+      "Recherches scientifiques et technologiques en sciences humaines et sciences sociales": 444972030
+    }
+  },
+  "174": {
+    "code": "174",
+    "libelle": "Énergie, climat et après-mines",
+    "mission": "Écologie, développement et mobilité durables",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 1126145522,
+    "actions": {
+      "Politique de l'énergie": 126638179,
+      "Accompagnement transition énergétique": 648597000,
+      "Aides à l'acquisition de véhicules propres": 19809845,
+      "Gestion économique et sociale de l'après-mines": 251677973,
+      "Lutte contre le changement climatique et pour la qualité de l'air": 73847025,
+      "Soutien": 5575500
+    }
+  },
+  "175": {
+    "code": "175",
+    "libelle": "Patrimoines",
+    "mission": "Culture",
+    "ministere": "Culture",
+    "total_cp": 1137477968,
+    "actions": {
+      "Monuments Historiques et patrimoine monumental": 432712937,
+      "Architecture et sites patrimoniaux": 38630595,
+      "Patrimoine des musées de France": 437410414,
+      "Patrimoine archivistique": 55789225,
+      "Acquisition et enrichissement des collections publiques": 9341245,
+      "Patrimoine archéologique": 163593552
+    }
+  },
+  "176": {
+    "code": "176",
+    "libelle": "Police nationale",
+    "mission": "Sécurités",
+    "ministere": "Intérieur",
+    "total_cp": 13837870897,
+    "actions": {
+      "Ordre public et protection de la souveraineté": 1878491662,
+      "Sécurité et paix publiques": 4171938160,
+      "Sécurité routière": 448535036,
+      "Police des étrangers et sûreté des transports internationaux": 1272218101,
+      "Police judiciaire": 3313636229,
+      "Commandement, ressources humaines et logistique": 2753051709
+    }
+  },
+  "177": {
+    "code": "177",
+    "libelle": "Hébergement, parcours vers le logement et insertion des personnes vulnérables",
+    "mission": "Cohésion des territoires",
+    "ministere": "Ville et logement",
+    "total_cp": 3071443369,
+    "actions": {
+      "Prévention de l'exclusion": 34569082,
+      "Hébergement et logement adapté": 3028677587,
+      "Conduite et animation des politiques de l'hébergement et de l'inclusion sociale": 8196700
+    }
+  },
+  "178": {
+    "code": "178",
+    "libelle": "Préparation et emploi des forces",
+    "mission": "Défense",
+    "ministere": "Armées et anciens combattants",
+    "total_cp": 15745132934,
+    "actions": {
+      "Planification  des moyens et conduite des opérations": 801667715,
+      "Préparation des forces terrestres": 2500913352,
+      "Préparation des forces navales": 3940293717,
+      "Préparation des forces aériennes": 3717722382,
+      "Logistique et soutien interarmées": 3046032540,
+      "Surcoûts liés aux opérations extérieures": 870000000,
+      "Surcoûts liés aux opérations intérieures": 30000000,
+      "Numérique de défense": 838503228
+    }
+  },
+  "180": {
+    "code": "180",
+    "libelle": "Presse et médias",
+    "mission": "Médias, livre et industries culturelles",
+    "ministere": "Culture",
+    "total_cp": 362329698,
+    "actions": {
+      "Relations financières avec l'AFP": 147185233,
+      "Aides à la presse": 176338347,
+      "Soutien aux médias de proximité": 1831660,
+      "Soutien à l'expression radiophonique locale": 35307958,
+      "Compagnie internationale de radio et télévision (CIRT)": 1666500
+    }
+  },
+  "181": {
+    "code": "181",
+    "libelle": "Prévention des risques",
+    "mission": "Écologie, développement et mobilité durables",
+    "ministere": "Transition écologique, biodiversité et négociations internationales sur le climat et la nature",
+    "total_cp": 1458914694,
+    "actions": {
+      "Prévention des risques technologiques et des pollutions": 62769438,
+      "Prévention des risques naturels et hydrauliques": 37799037,
+      "Gestion de l'après-mine et travaux de mise en sécurité, indemnisations et expropriations sur les sites": 42389976,
+      "Agence de l'environnement et de la maîtrise de l'énergie (ADEME)": 1033385325,
+      "Institut national de l'environnement industriel et des risques (INERIS)": 38770918,
+      "Fonds de prévention des risques naturels majeurs": 228800000,
+      "Retrait Gonflement des Argiles": 15000000
+    }
+  },
+  "182": {
+    "code": "182",
+    "libelle": "Protection judiciaire de la jeunesse",
+    "mission": "Justice",
+    "ministere": "Justice",
+    "total_cp": 1149682851,
+    "actions": {
+      "Mise en oeuvre des décisions judiciaires": 963278501,
+      "Soutien": 137380014,
+      "Formation": 49024336
+    }
+  },
+  "183": {
+    "code": "183",
+    "libelle": "Protection maladie",
+    "mission": "Santé",
+    "ministere": "Santé, familles, autonomie et personnes handicapées",
+    "total_cp": 1216300000,
+    "actions": {
+      "Aide médicale de l'Etat": 1208300000,
+      "Fonds d'indemnisation des victimes de l'amiante": 8000000
+    }
+  },
+  "185": {
+    "code": "185",
+    "libelle": "Diplomatie culturelle et d'influence",
+    "mission": "Action extérieure de l'État",
+    "ministere": "Europe et affaires étrangères",
+    "total_cp": 611326220,
+    "actions": {
+      "Appui au réseau culturel et de coopération": 103445956,
+      "Mobilité étudiante": 56272657,
+      "Opérateurs": 427542722,
+      "Crédits centraux": 24064885
+    }
+  },
+  "190": {
+    "code": "190",
+    "libelle": "Recherche dans les domaines de l'énergie, du développement et de la mobilité durables",
+    "mission": "Recherche et enseignement supérieur",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 1482022164,
+    "actions": {
+      "Recherche et développement dans le domaine de l'aéronautique civile": 57796007,
+      "Charges nucléaires de long terme des installations du CEA": 780000000,
+      "Recherche dans le domaine de l'énergie nucléaire": 462932428,
+      "Recherche dans le domaine des nouvelles technologies de l'énergie": 181293729
+    }
+  },
+  "191": {
+    "code": "191",
+    "libelle": "Recherche duale (civile et militaire)",
+    "mission": "Recherche et enseignement supérieur",
+    "ministere": "Armées et anciens combattants",
+    "total_cp": 149413489,
+    "actions": {
+      "Recherche duale en lutte contre la menace NRBC-E": 11951255,
+      "Recherche duale dans le domaine aérospatial": 127186115,
+      "Autres recherches et développements technologiques duaux": 10276119
+    }
+  },
+  "192": {
+    "code": "192",
+    "libelle": "Recherche et enseignement supérieur en matière économique et industrielle",
+    "mission": "Recherche et enseignement supérieur",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 569921736,
+    "actions": {
+      "Organismes de formation supérieure et de recherche": 328194049,
+      "Soutien et diffusion de l'innovation technologique": 241687833,
+      "Soutien de la recherche industrielle stratégique": 39854
+    }
+  },
+  "193": {
+    "code": "193",
+    "libelle": "Recherche spatiale",
+    "mission": "Recherche et enseignement supérieur",
+    "ministere": "Enseignement supérieur, recherche et espace",
+    "total_cp": 1830751132,
+    "actions": {
+      "Développement de la technologie spatiale au service de la science": 281156954,
+      "Développement de la technologie spatiale au service de l'observation de la terre": 400902146,
+      "Développement de la technologie spatiale au service de la recherche en sciences de l'information et de la communication": 168585833,
+      "Maîtrise de l'accès à l'espace": 516375046,
+      "Maîtrise des technologies orbitales et de l'innovation technologique": 251727819,
+      "Moyens généraux et d'appui à la recherche": 146410710,
+      "Développement des satellites de météorologie": 65592624
+    }
+  },
+  "195": {
+    "code": "195",
+    "libelle": "Régimes de retraite des mines, de la SEITA, et divers",
+    "mission": "Régimes sociaux et de retraite",
+    "ministere": "Action et comptes publics",
+    "total_cp": 1070727204,
+    "actions": {
+      "Versements au fonds spécial de retraite de la caisse autonome nationale de sécurité sociale dans les mines": 839166047,
+      "Régime de retraite de la SEITA": 129779647,
+      "Caisse des retraites des régies ferroviaires d'outre-mer": 578023,
+      "Caisse de retraites du personnel de la Comédie Française": 4823155,
+      "Caisse de retraites des personnels de l'Opéra national de Paris": 24163192,
+      "Versements liés à la liquidation de l'ORTF": 58620,
+      "Régime d’allocations viagères des gérants de débit de tabac": 72158520
+    }
+  },
+  "197": {
+    "code": "197",
+    "libelle": "Régimes de retraite et de sécurité sociale des marins",
+    "mission": "Régimes sociaux et de retraite",
+    "ministere": "Transition écologique, biodiversité et négociations internationales sur le climat et la nature",
+    "total_cp": 811267991,
+    "actions": {
+      "Régimes de retraite et de sécurité sociale des marins": 811267991
+    }
+  },
+  "198": {
+    "code": "198",
+    "libelle": "Régimes sociaux et de retraite des transports terrestres",
+    "mission": "Régimes sociaux et de retraite",
+    "ministere": "Action et comptes publics",
+    "total_cp": 4185882889,
+    "actions": {
+      "Régime de retraite du personnel de la SNCF": 3275255358,
+      "Régime de retraite du personnel de la RATP": 899210955,
+      "Autres régimes": 11416576
+    }
+  },
+  "200": {
+    "code": "200",
+    "libelle": "Remboursements et dégrèvements d'impôts d'État (crédits évaluatifs)",
+    "mission": "Remboursements et dégrèvements",
+    "ministere": "Action et comptes publics",
+    "total_cp": 141174362742,
+    "actions": {
+      "Remboursements et restitutions liés à la mécanique de l'impôt": 107911840416,
+      "Remboursements et dégrèvements liées à des politiques publiques": 18718044513,
+      "Remboursements et dégrèvements liés à la gestion des produits de l'Etat": 14544477813
+    }
+  },
+  "201": {
+    "code": "201",
+    "libelle": "Remboursements et dégrèvements d'impôts locaux (crédits évaluatifs)",
+    "mission": "Remboursements et dégrèvements",
+    "ministere": "Action et comptes publics",
+    "total_cp": 4426000000,
+    "actions": {
+      "Contribution économique territoriale et autres impôts économiques": 1272000000,
+      "Taxes foncières": 2111000000,
+      "Taxe d'habitation": 553000000,
+      "Admission en non valeur d'impôts locaux": 490000000
+    }
+  },
+  "203": {
+    "code": "203",
+    "libelle": "Infrastructures et services de transports",
+    "mission": "Écologie, développement et mobilité durables",
+    "ministere": "Transports",
+    "total_cp": 4607896985,
+    "actions": {
+      "Routes - Entretien": 299942265,
+      "Ferroviaire": 3223093903,
+      "Voies navigables": 251425989,
+      "Ports": 87494963,
+      "Transports collectifs": 308388021,
+      "Transports combinés": 156200000,
+      "Fonctions support": 50879671,
+      "Transport routier": 167712137,
+      "Transport aérien": 62760036
+    }
+  },
+  "204": {
+    "code": "204",
+    "libelle": "Prévention, sécurité sanitaire et offre de soins",
+    "mission": "Santé",
+    "ministere": "Santé, familles, autonomie et personnes handicapées",
+    "total_cp": 429833258,
+    "actions": {
+      "Pilotage de la politique de santé publique": 44927220,
+      "Santé des populations": 919887,
+      "Prévention des maladies chroniques et qualité de vie des malades": 53132163,
+      "Prévention des risques liés à l'environnement et à l'alimentation": 28109998,
+      "Veille et sécurité sanitaire": 2639936,
+      "Politique des produits de santé et de la qualité des pratiques et des soins": 4261537,
+      "Modernisation de l'offre de soins": 295842517
+    }
+  },
+  "205": {
+    "code": "205",
+    "libelle": "Affaires maritimes, pêche et aquaculture",
+    "mission": "Écologie, développement et mobilité durables",
+    "ministere": "Transition écologique, biodiversité et négociations internationales sur le climat et la nature",
+    "total_cp": 309702930,
+    "actions": {
+      "Surveillance et sûreté maritimes": 33829809,
+      "Emplois et formations maritimes": 31988259,
+      "Innovation et flotte de commerce": 101360247,
+      "Action interministérielle de la mer": 24194714,
+      "Soutien et systèmes d'information": 9211122,
+      "Pêche et aquaculture": 91597757,
+      "Planification et économie bleue": 17521022
+    }
+  },
+  "206": {
+    "code": "206",
+    "libelle": "Sécurité et qualité sanitaires de l'alimentation",
+    "mission": "Agriculture, alimentation, forêt et affaires rurales",
+    "ministere": "Agriculture, agro-alimentaire et souveraineté alimentaire",
+    "total_cp": 832757173,
+    "actions": {
+      "Santé, qualité et protection des végétaux": 33006259,
+      "Lutte contre les maladies animales, protection et bien-être animal": 160695769,
+      "Sécurité sanitaire de l'alimentation": 102126786,
+      "Actions transversales": 114824829,
+      "Elimination des cadavres et des sous-produits animaux": 3940552,
+      "Mise en oeuvre de la politique de sécurité et de qualité sanitaires de l'alimentation": 370691811,
+      "Politique de l'alimentation pour la Souveraineté Alimentaire": 5724144,
+      "Planification écologique - Stratégie de réduction de l’utilisation des produits phytosanitaires": 41747023
+    }
+  },
+  "207": {
+    "code": "207",
+    "libelle": "Sécurité et éducation routières",
+    "mission": "Sécurités",
+    "ministere": "Intérieur",
+    "total_cp": 77115152,
+    "actions": {
+      "Observation, prospective, réglementation et soutien au programme": 7093342,
+      "Démarches interministérielles et communication": 45457755,
+      "Éducation routière": 24564055
+    }
+  },
+  "209": {
+    "code": "209",
+    "libelle": "Solidarité à l'égard des pays en développement",
+    "mission": "Aide publique au développement",
+    "ministere": "Europe et affaires étrangères",
+    "total_cp": 1493102733,
+    "actions": {
+      "Coopération bilatérale": 1026051676,
+      "Coopération multilatérale": 58698454,
+      "Coopération communautaire": 124688830,
+      "Action humanitaire": 283663773
+    }
+  },
+  "212": {
+    "code": "212",
+    "libelle": "Soutien de la politique de la défense",
+    "mission": "Défense",
+    "ministere": "Armées et anciens combattants",
+    "total_cp": 25616379571,
+    "actions": {
+      "Politique immobilière": 937300432,
+      "Systèmes d'information, d'administration et de gestion": 172155763,
+      "Politiques des ressources humaines": 220142214,
+      "Politique culturelle et éducative": 56955764,
+      "Restructurations": 10263244,
+      "Pilotage, soutien et communication": 388334253,
+      "Recherche et exploitation du renseignement intéressant la sécurité de la France - Personnel travaillant  pour le programme \"Environnement et prospective de la politique de défense\"": 739616307,
+      "Prospective de défense - Personnel travaillant  pour le programme \"Environnement et prospective de la politique de défense\"": 28625435,
+      "Relations internationales": 74897855,
+      "Préparation et conduite des opérations d'armement - Personnel travaillant  pour le programme  \"Équipement des forces \"": 2547358112,
+      "Planification des moyens et conduite des opérations - Personnel travaillant  pour le programme \"Préparation et emploi des forces\"": 1027158207,
+      "Préparation des forces terrestres - Personnel travaillant pour le programme \"Préparation et emploi des forces\"": 8222359732,
+      "Préparation des forces navales - Personnel travaillant pour le programme \"Préparation et emploi des forces\"": 2949684395,
+      "Préparation des forces aériennes- Personnel travaillant pour le programme \"Préparation et emploi des forces\"": 2940023517,
+      "Logistique et soutien interarmées - Personnel travaillant pour le programme \"Préparation et emploi des forces\"": 2886650110,
+      "Surcoûts liés aux opérations - Personnel travaillant pour le programme \"Préparation et emploi des forces\"": 300000000,
+      "Politique immobilière - Personnel travaillant pour l'action \"Politique immobilière\"": 507498362,
+      "Action sociale, chômage et pensions": 316198138,
+      "Politique culturelle et éducative - gestion et communication des archives historiques de la défense - Personnel travaillant pour l'action \"Politique culturelle et éducative\"": 39387591,
+      "Restructurations - RH": 38454950,
+      "Pilotage, soutien  -  Personnel travaillant pour l'action \" Pilotage, soutien \"": 413611373,
+      "Journée défense et citoyenneté - Personnel travaillant pour le programme \"Reconnaissance et réparation en faveur du monde combattant\"": 114532602,
+      "Rayonnement et contribution extérieure": 37755406,
+      "Pilotage, soutien et communication - dépenses de personnel des cabinets et des organismes rattachés / RH": 647415809
+    }
+  },
+  "214": {
+    "code": "214",
+    "libelle": "Soutien de la politique de l'éducation nationale",
+    "mission": "Enseignement scolaire",
+    "ministere": "Éducation nationale",
+    "total_cp": 3045962854,
+    "actions": {
+      "Pilotage et mise en oeuvre des politiques éducatives": 534071793,
+      "Évaluation et contrôle": 101442109,
+      "Communication": 16801035,
+      "Expertise juridique": 21370972,
+      "Action internationale": 10237519,
+      "Politique des ressources humaines": 875903890,
+      "Établissements d'appui de la politique éducative": 139194142,
+      "Logistique, système d'information, immobilier": 864843971,
+      "Certification": 240485777,
+      "Transports scolaires": 3322845,
+      "Pilotage et mise œuvre des politiques du sport, de la jeunesse, de l'éducation populaire et de la vie associative": 238288801
+    }
+  },
+  "215": {
+    "code": "215",
+    "libelle": "Conduite et pilotage des politiques de l'agriculture",
+    "mission": "Agriculture, alimentation, forêt et affaires rurales",
+    "ministere": "Agriculture, agro-alimentaire et souveraineté alimentaire",
+    "total_cp": 656072054,
+    "actions": {
+      "Moyens de l'administration centrale": 224965395,
+      "Évaluation de l'impact des politiques publiques et information économique": 16544905,
+      "Moyens des directions régionales de l'alimentation, de l'agriculture et de la forêt, des directions de l'alimentation, de l'agriculture et de la forêt et directions départementales des territoires (et de la mer)": 320290529,
+      "Moyens communs": 94271225
+    }
+  },
+  "216": {
+    "code": "216",
+    "libelle": "Conduite et pilotage des politiques de l'intérieur",
+    "mission": "Administration générale et territoriale de l'État",
+    "ministere": "Intérieur",
+    "total_cp": 2041568552,
+    "actions": {
+      "État-major et services centraux": 775845802,
+      "Numérique": 379991711,
+      "Action sociale et formation": 91424967,
+      "Affaires immobilières": 453756688,
+      "Affaires juridiques et contentieuses": 85188190,
+      "Cultes et laïcité": 6699542,
+      "Immigration, asile et intégration": 45005628,
+      "Sécurité et éducation routières": 134076769,
+      "Fonds interministériel de prévention de la délinquance": 43454233,
+      "Equipements de vidéo-protection de surveillance électronique et de sécurisation du Ministère de l'Intérieur, des collectivités, des forces locales et des établissements publics": 26125022
+    }
+  },
+  "217": {
+    "code": "217",
+    "libelle": "Conduite et pilotage des politiques de l'écologie, du développement et de la mobilité durables",
+    "mission": "Écologie, développement et mobilité durables",
+    "ministere": "Transition écologique, biodiversité et négociations internationales sur le climat et la nature",
+    "total_cp": 3199291630,
+    "actions": {
+      "Pilotage, support, audit et évaluations": 915289548,
+      "Personnels œuvrant pour les politiques de transport": 612864744,
+      "Personnels oeuvrant pour les politiques du programme \"Affaires maritimes\"": 231471500,
+      "Personnels œuvrant pour la politique de l'eau et de la biodiversité": 272609051,
+      "Personnels œuvrant pour les politiques du programme Urbanisme, territoires et aménagement de l'habitat": 689822415,
+      "Personnels œuvrant pour la politique de la prévention des risques": 292547431,
+      "Personnels transférés aux collectivités territoriales": 24738676,
+      "Personnels œuvrant pour les politiques de l'énergie et du climat": 75555545,
+      "Commission nationale du débat public": 4264240,
+      "Autorité de contrôle des nuisances aéroportuaires (ACNUSA)": 2064810,
+      "Commission de régulation de l'énergie (CRE)": 25247551,
+      "Personnels œuvrant dans le domaine de la stratégie et de la connaissance des politiques de transition écologique": 52816119
+    }
+  },
+  "218": {
+    "code": "218",
+    "libelle": "Conduite et pilotage des politiques économiques et financières",
+    "mission": "Gestion des finances publiques",
+    "ministere": "Action et comptes publics",
+    "total_cp": 991979132,
+    "actions": {
+      "Expertise, audit, évaluation et contrôle": 207921699,
+      "Prestations d'appui et support": 407870860,
+      "Pilotage des finances publiques et projets interministériels": 188210130,
+      "Accompagnement du changement de l'action publique": 4097737,
+      "Action sociale ministérielle": 183878706
+    }
+  },
+  "219": {
+    "code": "219",
+    "libelle": "Sport",
+    "mission": "Sport, jeunesse et vie associative",
+    "ministere": "Sports, jeunesse et vie associative",
+    "total_cp": 548252527,
+    "actions": {
+      "Promotion du sport pour le plus grand nombre": 142573391,
+      "Développement du sport de haut niveau": 323423352,
+      "Prévention par le sport et protection des sportifs": 33816634,
+      "Promotion des métiers du sport": 48439150
+    }
+  },
+  "220": {
+    "code": "220",
+    "libelle": "Statistiques et études économiques",
+    "mission": "Économie",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 484053649,
+    "actions": {
+      "Infrastructures statistiques et missions régaliennes": 152119279,
+      "Action régionale": 45147057,
+      "Information économique, démographique et sociale": 135983629,
+      "Pilotage, soutien et formation initiale": 150803684
+    }
+  },
+  "224": {
+    "code": "224",
+    "libelle": "Soutien aux politiques du ministère de la culture",
+    "mission": "Culture",
+    "ministere": "Culture",
+    "total_cp": 868100684,
+    "actions": {
+      "Action culturelle internationale": 10533981,
+      "Fonctions de soutien du ministère": 857566703
+    }
+  },
+  "230": {
+    "code": "230",
+    "libelle": "Vie de l'élève",
+    "mission": "Enseignement scolaire",
+    "ministere": "Éducation nationale",
+    "total_cp": 8060719293,
+    "actions": {
+      "Vie scolaire et éducation à la responsabilité": 2858258424,
+      "Santé scolaire": 748193274,
+      "Inclusion scolaire des élèves en situation de handicap": 3110815608,
+      "Action sociale": 1100691638,
+      "Politique de l'internat et établissements à la charge de l'Etat": 83090192,
+      "Actions éducatives complémentaires aux enseignements": 159670157
+    }
+  },
+  "231": {
+    "code": "231",
+    "libelle": "Vie étudiante",
+    "mission": "Recherche et enseignement supérieur",
+    "ministere": "Enseignement supérieur, recherche et espace",
+    "total_cp": 3274887522,
+    "actions": {
+      "Aides directes": 2504671531,
+      "Aides indirectes": 557047217,
+      "Santé des étudiants et activités associatives, culturelles et sportives": 94016960,
+      "Pilotage et animation du programme": 119151814
+    }
+  },
+  "232": {
+    "code": "232",
+    "libelle": "Vie politique",
+    "mission": "Administration générale et territoriale de l'État",
+    "ministere": "Intérieur",
+    "total_cp": 300925020,
+    "actions": {
+      "Financement des partis": 68670672,
+      "Organisation des élections": 221639608,
+      "Commission nationale des comptes de campagne et des financements politiques": 10614740
+    }
+  },
+  "235": {
+    "code": "235",
+    "libelle": "Sûreté nucléaire et radioprotection",
+    "mission": "Écologie, développement et mobilité durables",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 347568160,
+    "actions": {
+      "Personnels œuvrant pour la politique en matière de sûreté nucléaire et radio-protection": 228831827,
+      "Sûreté nucléaire et radio-protection": 118736333
+    }
+  },
+  "302": {
+    "code": "302",
+    "libelle": "Facilitation et sécurisation des échanges",
+    "mission": "Gestion des finances publiques",
+    "ministere": "Action et comptes publics",
+    "total_cp": 1814759111,
+    "actions": {
+      "Surveillance douanière des flux de personnes et de marchandises et lutte contre la grande fraude douanière.": 629767928,
+      "Préservation de la sécurité et de la sûreté de l'espace national et européen": 185773984,
+      "Promotion des échanges internationaux et qualité du dédouanement": 259818699,
+      "Fiscalité douanière, énergétique et environnementale": 133894520,
+      "Soutien des services opérationnels": 532204233,
+      "Soutien au réseau des débitants de tabac": 48100000,
+      "Mobilisation des outils du renseignement au service des missions douanières": 25199747
+    }
+  },
+  "303": {
+    "code": "303",
+    "libelle": "Immigration et asile",
+    "mission": "Immigration, asile et intégration",
+    "ministere": "Intérieur",
+    "total_cp": 1766727085,
+    "actions": {
+      "Circulation des étrangers et politique des visas": 520000,
+      "Garantie de l'exercice du droit d'asile": 1369596949,
+      "Lutte contre l'immigration irrégulière": 312128203,
+      "Soutien": 84481933
+    }
+  },
+  "304": {
+    "code": "304",
+    "libelle": "Inclusion sociale et protection des personnes",
+    "mission": "Solidarité, insertion et égalité des chances",
+    "ministere": "Travail et solidarités",
+    "total_cp": 14785155974,
+    "actions": {
+      "Prime d'activité et autres dispositifs": 12958438964,
+      "Ingénierie, outils de la gouvernance et expérimentations": 26107678,
+      "Aide alimentaire": 159037627,
+      "Qualification en travail social": 7525481,
+      "Protection juridique des majeurs": 909388246,
+      "Protection et accompagnement des enfants, des jeunes et des familles vulnérables": 420802297,
+      "Aide à la vie familiale et sociale des anciens migrants dans leur pays d'origine (AVFS)": 1505498,
+      "Allocations et dépenses d'aide sociale": 37015219,
+      "Pacte des Solidarités": 265334964
+    }
+  },
+  "305": {
+    "code": "305",
+    "libelle": "Stratégies économiques",
+    "mission": "Économie",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 665794968,
+    "actions": {
+      "Définition et mise en oeuvre de la politique économique et financière de la France dans le cadre national, international et européen": 575206055,
+      "Développement international de l'économie française": 72456071,
+      "Économie sociale, solidaire et responsable": 18132842
+    }
+  },
+  "308": {
+    "code": "308",
+    "libelle": "Protection des droits et libertés",
+    "mission": "Direction de l'action du Gouvernement",
+    "ministere": "Services du Premier ministre",
+    "total_cp": 140164227,
+    "actions": {
+      "Commission nationale de l'informatique et des libertés": 30939807,
+      "Autorité de régulation de la communication audiovisuelle et numérique": 49981570,
+      "Contrôleur général des lieux de privation de liberté": 6091477,
+      "Autres autorités indépendantes": 6289668,
+      "Défenseur des droits": 30880213,
+      "Haute autorité pour la transparence de la vie publique": 11408220,
+      "Commission nationale de contrôle des techniques de renseignement": 3768351,
+      "Commission du secret de la Défense nationale": 804921
+    }
+  },
+  "310": {
+    "code": "310",
+    "libelle": "Conduite et pilotage de la politique de la justice",
+    "mission": "Justice",
+    "ministere": "Justice",
+    "total_cp": 755917817,
+    "actions": {
+      "État major": 12644373,
+      "Activité normative": 36261787,
+      "Évaluation, contrôle, études et recherche": 26600758,
+      "Gestion de l'administration centrale": 215089027,
+      "Développement des techniques d’enquêtes numériques judiciaires": 55194504,
+      "Action informatique ministérielle": 333460049,
+      "Politiques RH transverses": 76667319
+    }
+  },
+  "334": {
+    "code": "334",
+    "libelle": "Livre et industries culturelles",
+    "mission": "Médias, livre et industries culturelles",
+    "ministere": "Culture",
+    "total_cp": 340643854,
+    "actions": {
+      "Livre et lecture": 319162298,
+      "Industries culturelles": 21481556
+    }
+  },
+  "335": {
+    "code": "335",
+    "libelle": "Conseil supérieur de la magistrature",
+    "mission": "Justice",
+    "ministere": "Justice",
+    "total_cp": 6433848,
+    "actions": {
+      "Conseil supérieur de la magistrature": 6433848
+    }
+  },
+  "336": {
+    "code": "336",
+    "libelle": "Dotation du Mécanisme européen de stabilité",
+    "mission": "Engagements financiers de l'État",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 0,
+    "actions": {
+      "Dotation du Mécanisme européen de stabilité": 0
+    }
+  },
+  "343": {
+    "code": "343",
+    "libelle": "Plan France Très haut débit",
+    "mission": "Économie",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 282279410,
+    "actions": {
+      "Réseaux d'initiative publique": 254189723,
+      "Autres projets concourant à la mise en œuvre du plan France très haut débit": 14089687,
+      "Inclusion numérique": 14000000
+    }
+  },
+  "344": {
+    "code": "344",
+    "libelle": "Fonds de soutien relatif aux prêts et contrats financiers structurés à risque",
+    "mission": "Engagements financiers de l'État",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 178679630,
+    "actions": {
+      "Fonds de soutien relatif aux prêts et contrats financiers structurés à risque": 178679630
+    }
+  },
+  "345": {
+    "code": "345",
+    "libelle": "Service public de l'énergie",
+    "mission": "Écologie, développement et mobilité durables",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 9583676708,
+    "actions": {
+      "Soutien aux énergies renouvelables électriques en métropole continentale": 7286110696,
+      "Soutien à l'injection de biométhane": 1305983888,
+      "Soutien dans les zones non interconnectées au réseau métropolitain": 113698131,
+      "Soutien à la cogénération au gaz naturel et autres moyens thermiques": 658664103,
+      "Soutien aux effacements de consommation": 146294861,
+      "Dispositions sociales pour les consommateurs en situation de précarité énergétique": 36234537,
+      "Mesures exceptionnelles de protection des consommateurs": 33390492,
+      "Soutien hydrogène": 3300000
+    }
+  },
+  "348": {
+    "code": "348",
+    "libelle": "Performance et résilience des bâtiments de l'État et de ses opérateurs",
+    "mission": "Transformation et fonction publiques",
+    "ministere": "Action et comptes publics",
+    "total_cp": 200671667,
+    "actions": {
+      "Etudes": 17605854,
+      "Travaux et gros entretien à la charge du propriétaire": 142705814,
+      "Résilience": 40359999
+    }
+  },
+  "349": {
+    "code": "349",
+    "libelle": "Transformation publique",
+    "mission": "Transformation et fonction publiques",
+    "ministere": "Action et comptes publics",
+    "total_cp": 38552313,
+    "actions": {
+      "Fonds pour la transformation de l'action publique": 18602313,
+      "Accompagnement du changement de l'action publique": 19450000,
+      "Renouveau démocratique": 500000
+    }
+  },
+  "354": {
+    "code": "354",
+    "libelle": "Administration territoriale de l'État",
+    "mission": "Administration générale et territoriale de l'État",
+    "ministere": "Intérieur",
+    "total_cp": 2739049891,
+    "actions": {
+      "Coordination de la sécurité des personnes et des biens": 202971882,
+      "Réglementation générale, garantie de l'identité et de la nationalité et délivrance des titres": 500983815,
+      "Contrôle de légalité et conseil aux collectivités territoriales": 149457232,
+      "Pilotage territorial des politiques gouvernementales": 828781860,
+      "Fonctionnement courant de l'administration territoriale": 705436793,
+      "Dépenses immobilières de l'administration territoriale": 351418309
+    }
+  },
+  "355": {
+    "code": "355",
+    "libelle": "Charge de la dette de SNCF Réseau reprise par l'État (crédits évaluatifs)",
+    "mission": "Engagements financiers de l'État",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 661000000,
+    "actions": {
+      "Charge de la dette de SNCF Réseau reprise par l'État": 661000000
+    }
+  },
+  "361": {
+    "code": "361",
+    "libelle": "Transmission des savoirs et démocratisation de la culture",
+    "mission": "Culture",
+    "ministere": "Culture",
+    "total_cp": 741129048,
+    "actions": {
+      "Soutien aux établissements d'enseignement supérieur et insertion professionnelle": 319690082,
+      "Soutien à la démocratisation et à l'éducation artistique et culturelle": 296343292,
+      "Langue française et langues de France": 4027569,
+      "Recherche culturelle et culture scientifique et technique": 121068105
+    }
+  },
+  "365": {
+    "code": "365",
+    "libelle": "Renforcement des fonds propres de l'Agence française de développement",
+    "mission": "Aide publique au développement",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 100000000,
+    "actions": {
+      "Renforcement des fonds propres de l'Agence française de développement": 100000000
+    }
+  },
+  "368": {
+    "code": "368",
+    "libelle": "Conduite et pilotage de la transformation et de la fonction publiques",
+    "mission": "Transformation et fonction publiques",
+    "ministere": "Action et comptes publics",
+    "total_cp": 52857183,
+    "actions": {
+      "Accompagnement des transformations des ressources humaines (DGAFP/CISIRH)": 35778938,
+      "Pilotage des actions de modernisation (DITP)": 17078245
+    }
+  },
+  "379": {
+    "code": "379",
+    "libelle": "Reversement à la sécurité sociale des recettes de la Facilité pour la Relance et la Résilience (FRR) européenne au titre du volet « Ségur investissement » du plan national de relance et de résilience (PNRR)",
+    "mission": "Santé",
+    "ministere": "Santé, familles, autonomie et personnes handicapées",
+    "total_cp": 242000000,
+    "actions": {
+      "Ségur investissement du PNRR": 242000000
+    }
+  },
+  "380": {
+    "code": "380",
+    "libelle": "Fonds d'accélération de la transition écologique dans les territoires",
+    "mission": "Écologie, développement et mobilité durables",
+    "ministere": "Aménagement du territoire et de la décentralisation",
+    "total_cp": 1069932447,
+    "actions": {
+      "Performance environnementale": 547504053,
+      "Adaptation des territoires au changement climatique": 179331147,
+      "Amélioration du cadre de vie": 343097247
+    }
+  },
+  "381": {
+    "code": "381",
+    "libelle": "Allègements du coût du travail en agriculture (TODE-AG)",
+    "mission": "Agriculture, alimentation, forêt et affaires rurales",
+    "ministere": "Agriculture, agro-alimentaire et souveraineté alimentaire",
+    "total_cp": 449000000,
+    "actions": {
+      "Allègements de cotisations et contributions sociales": 449000000
+    }
+  },
+  "384": {
+    "code": "384",
+    "libelle": "Fonds de solidarité pour le développement",
+    "mission": "Aide publique au développement",
+    "ministere": "Europe et affaires étrangères",
+    "total_cp": 738000000,
+    "actions": {
+      "Fonds de solidarité pour le développement": 738000000
+    }
+  },
+  "385": {
+    "code": "385",
+    "libelle": "Jeux olympiques et paralympiques d'hiver 2030",
+    "mission": "Sport, jeunesse et vie associative",
+    "ministere": "Sports, jeunesse et vie associative",
+    "total_cp": 63628478,
+    "actions": {
+      "Société de livraison des ouvrages olympiques et paralympiques Alpes 2030": 22028478,
+      "Comité d'organisation des Jeux olympiques et paralympiques Alpes 2030": 41600000
+    }
+  },
+  "421": {
+    "code": "421",
+    "libelle": "Soutien des progrès de l'enseignement et de la recherche",
+    "mission": "Investir pour la France de 2030",
+    "ministere": "Services du Premier ministre",
+    "total_cp": 200693126,
+    "actions": {
+      "Nouveaux cursus à l'université": 20000000,
+      "Programmes prioritaires de recherche": 31000000,
+      "Équipements structurants de recherche": 18993126,
+      "Soutien des grandes universités de recherche": 73000000,
+      "Constitution d'écoles universitaires de recherche": 35000000,
+      "Territoires d'innovation pédagogique": 22700000
+    }
+  },
+  "422": {
+    "code": "422",
+    "libelle": "Valorisation de la recherche",
+    "mission": "Investir pour la France de 2030",
+    "ministere": "Services du Premier ministre",
+    "total_cp": 32161600,
+    "actions": {
+      "Démonstrateurs et territoires d'innovation de grande ambition": 4809489,
+      "Accélération du développement des écosystèmes d'innovation performants": 27352111
+    }
+  },
+  "423": {
+    "code": "423",
+    "libelle": "Accélération de la modernisation des entreprises",
+    "mission": "Investir pour la France de 2030",
+    "ministere": "Services du Premier ministre",
+    "total_cp": 136660000,
+    "actions": {
+      "Soutien à l'innovation collaborative": 27000000,
+      "Accompagnement et transformation des filières": 9660000,
+      "Grands défis": 100000000
+    }
+  },
+  "424": {
+    "code": "424",
+    "libelle": "Financement des investissements stratégiques",
+    "mission": "Investir pour la France de 2030",
+    "ministere": "Services du Premier ministre",
+    "total_cp": 2653875009,
+    "actions": {
+      "Programmes et équipements prioritaires de recherche": 240000000,
+      "Maturation de technologies, R&D, valorisation de la recherche": 221518000,
+      "Démonstration en conditions réelles, amorçage et premières commerciales": 553745985,
+      "Soutien au déploiement": 858047579,
+      "Accélération de la croissance (fonds propres)": 435563445,
+      "Industrialisation et déploiement": 345000000
+    }
+  },
+  "425": {
+    "code": "425",
+    "libelle": "Financement structurel des écosystèmes d'innovation",
+    "mission": "Investir pour la France de 2030",
+    "ministere": "Services du Premier ministre",
+    "total_cp": 1374439597,
+    "actions": {
+      "Financements de l'écosystème ESRI et valorisation": 642172197,
+      "Aides à l'innovation « bottom-up » (subventions et prêts)": 647267400,
+      "Aides à l’innovation « bottom-up » (fonds propres)": 85000000
+    }
+  },
+  "501": {
+    "code": "501",
+    "libelle": "Présidence de la République",
+    "mission": "Pouvoirs publics",
+    "ministere": "Action et comptes publics",
+    "total_cp": 122563852,
+    "actions": {
+      "Présidence de la République": 122563852
+    }
+  },
+  "511": {
+    "code": "511",
+    "libelle": "Assemblée nationale",
+    "mission": "Pouvoirs publics",
+    "ministere": "Action et comptes publics",
+    "total_cp": 607647569,
+    "actions": {
+      "Assemblée nationale": 607647569
+    }
+  },
+  "521": {
+    "code": "521",
+    "libelle": "Sénat",
+    "mission": "Pouvoirs publics",
+    "ministere": "Action et comptes publics",
+    "total_cp": 353470900,
+    "actions": {
+      "Sénat": 341864000,
+      "Jardin du Luxembourg": 11606900
+    }
+  },
+  "531": {
+    "code": "531",
+    "libelle": "Conseil constitutionnel",
+    "mission": "Pouvoirs publics",
+    "ministere": "Action et comptes publics",
+    "total_cp": 20000000,
+    "actions": {
+      "Conseil constitutionnel": 20000000
+    }
+  },
+  "533": {
+    "code": "533",
+    "libelle": "Cour de justice de la République",
+    "mission": "Pouvoirs publics",
+    "ministere": "Action et comptes publics",
+    "total_cp": 900000,
+    "actions": {
+      "Cour de justice de la République": 900000
+    }
+  },
+  "541": {
+    "code": "541",
+    "libelle": "La Chaîne parlementaire",
+    "mission": "Pouvoirs publics",
+    "ministere": "Action et comptes publics",
+    "total_cp": 35596900,
+    "actions": {
+      "La Chaîne parlementaire - Assemblée nationale": 17798900,
+      "Public Sénat": 17798000
+    }
+  },
+  "551": {
+    "code": "551",
+    "libelle": "Provision relative aux rémunérations publiques",
+    "mission": "Crédits non répartis",
+    "ministere": "Action et comptes publics",
+    "total_cp": 350000000,
+    "actions": {
+      "Provision relative aux rémunérations publiques": 350000000
+    }
+  },
+  "552": {
+    "code": "552",
+    "libelle": "Dépenses accidentelles et imprévisibles",
+    "mission": "Crédits non répartis",
+    "ministere": "Action et comptes publics",
+    "total_cp": 125000000,
+    "actions": {
+      "Dépenses accidentelles et imprévisibles": 125000000
+    }
+  },
+  "612": {
+    "code": "612",
+    "libelle": "Navigation aérienne",
+    "mission": "Contrôle et exploitation aériens",
+    "ministere": "Transports",
+    "total_cp": 681437903,
+    "actions": {
+      "Soutien et prestations externes de la Navigation aérienne": 287755419,
+      "Exploitation et innovation de la Navigation aérienne": 393682484
+    }
+  },
+  "613": {
+    "code": "613",
+    "libelle": "Soutien aux prestations de l'aviation civile",
+    "mission": "Contrôle et exploitation aériens",
+    "ministere": "Transports",
+    "total_cp": 1697584442,
+    "actions": {
+      "Ressources humaines et management": 1485612072,
+      "Logistique": 82223144,
+      "Affaires financières": 12204465,
+      "Formation aéronautique": 117544761
+    }
+  },
+  "614": {
+    "code": "614",
+    "libelle": "Transports aériens, surveillance et certification",
+    "mission": "Contrôle et exploitation aériens",
+    "ministere": "Transports",
+    "total_cp": 46513947,
+    "actions": {
+      "Développement durable et régulation": 17698278,
+      "Surveillance et certification": 25018019,
+      "Enquêtes de sécurité aérienne": 3797650
+    }
+  },
+  "623": {
+    "code": "623",
+    "libelle": "Édition et diffusion",
+    "mission": "Publications officielles et information administrative",
+    "ministere": "Services du Premier ministre",
+    "total_cp": 43728845,
+    "actions": {
+      "Accès au droit et diffusion légale": 28073152,
+      "Information administrative et vie publique": 15655693
+    }
+  },
+  "624": {
+    "code": "624",
+    "libelle": "Pilotage et ressources humaines",
+    "mission": "Publications officielles et information administrative",
+    "ministere": "Services du Premier ministre",
+    "total_cp": 103684826,
+    "actions": {
+      "Pilotage, modernisation et activités numériques": 10571075,
+      "Dépenses de personnel": 50914751,
+      "Convention Etat - Société anonyme de composition et d'impression des journaux officiels": 42199000
+    }
+  },
+  "723": {
+    "code": "723",
+    "libelle": "Opérations immobilières et entretien des bâtiments de l'État",
+    "mission": "Gestion du patrimoine immobilier de l'État",
+    "ministere": "Action et comptes publics",
+    "total_cp": 315500000,
+    "actions": {
+      "Opérations structurantes et cessions": 155500000,
+      "Contrôles règlementaires, audits, expertises et diagnostics": 16000000,
+      "Maintenance à la charge du propriétaire": 64000000,
+      "Gros entretien, réhabilitation, mise en conformité et remise en état": 80000000
+    }
+  },
+  "731": {
+    "code": "731",
+    "libelle": "Opérations en capital intéressant les participations financières de l'État",
+    "mission": "Participations financières de l'État",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 5383692655,
+    "actions": {
+      "Augmentations de capital, dotations en fonds propres, avances d'actionnaire et prêts assimilés": 4127952655,
+      "Achats ou souscriptions de titres, parts ou droits de société": 510000000,
+      "Autres investissements financiers de nature patrimoniale": 735200000,
+      "Prestations de services : commissions bancaires, frais juridiques et frais liés aux opérations de gestion des participations financières de l'État": 10500000,
+      "Versements au profit du Mécanisme européen de stabilité": 40000
+    }
+  },
+  "741": {
+    "code": "741",
+    "libelle": "Pensions civiles et militaires de retraite et allocations temporaires d'invalidité",
+    "mission": "Pensions",
+    "ministere": "Action et comptes publics",
+    "total_cp": 66656468653,
+    "actions": {
+      "Fonctionnaires civils relevant du code des pensions civiles et militaires de retraite": 55227905729,
+      "Militaires relevant du code des pensions civiles et militaires de retraite": 11287610418,
+      "Allocations temporaires d'invalidité": 140952506
+    }
+  },
+  "742": {
+    "code": "742",
+    "libelle": "Ouvriers des établissements industriels de l'État",
+    "mission": "Pensions",
+    "ministere": "Action et comptes publics",
+    "total_cp": 2102708800,
+    "actions": {
+      "Prestations vieillesse et invalidité": 2042219134,
+      "Autres dépenses spécifiques": 643061,
+      "Gestion du régime": 6512260,
+      "Rentes accidents du travail des ouvriers civils des établissements militaires (RATOCEM)": 53334345
+    }
+  },
+  "743": {
+    "code": "743",
+    "libelle": "Pensions militaires d'invalidité et des victimes de guerre et autres pensions",
+    "mission": "Pensions",
+    "ministere": "Action et comptes publics",
+    "total_cp": 1170423721,
+    "actions": {
+      "Reconnaissance de la Nation": 464746667,
+      "Réparation": 617370506,
+      "Pensions d'Alsace-Moselle": 17700000,
+      "Allocations de reconnaissance des anciens supplétifs": 58719010,
+      "Pensions des anciens agents du chemin de fer franco-éthiopien": 15641,
+      "Pensions des sapeurs-pompiers et anciens agents de la défense passive victimes d'accident": 11813897,
+      "Pensions de l'ORTF": 58000
+    }
+  },
+  "751": {
+    "code": "751",
+    "libelle": "Structures et dispositifs de sécurité routière",
+    "mission": "Contrôle de la circulation et du stationnement routiers",
+    "ministere": "Intérieur",
+    "total_cp": 344340107,
+    "actions": {
+      "Dispositifs de contrôle": 204538214,
+      "Centre national de traitement": 98301893,
+      "Soutien au programme": 3800000,
+      "Système d'information Education routière et permis de conduire": 37700000
+    }
+  },
+  "753": {
+    "code": "753",
+    "libelle": "Contrôle et modernisation de la politique de la circulation et du stationnement routiers",
+    "mission": "Contrôle de la circulation et du stationnement routiers",
+    "ministere": "Intérieur",
+    "total_cp": 26180665,
+    "actions": {
+      "Déploiement du procès-verbal électronique": 26180665
+    }
+  },
+  "754": {
+    "code": "754",
+    "libelle": "Contribution à l'équipement des collectivités territoriales pour l'amélioration des transports en commun, de la sécurité et de la circulation routières",
+    "mission": "Contrôle de la circulation et du stationnement routiers",
+    "ministere": "Aménagement du territoire et de la décentralisation",
+    "total_cp": 806735047,
+    "actions": {
+      "Contribution à l'équipement des collectivités territoriales pour l'amélioration des transports en commun, de la sécurité et de la circulation routières": 806735047
+    }
+  },
+  "755": {
+    "code": "755",
+    "libelle": "Désendettement de l'État",
+    "mission": "Contrôle de la circulation et du stationnement routiers",
+    "ministere": "Action et comptes publics",
+    "total_cp": 751444288,
+    "actions": {
+      "Désendettement de l'État": 751444288
+    }
+  },
+  "775": {
+    "code": "775",
+    "libelle": "Développement et transfert en agriculture",
+    "mission": "Développement agricole et rural",
+    "ministere": "Agriculture, agro-alimentaire et souveraineté alimentaire",
+    "total_cp": 67930000,
+    "actions": {
+      "Développement et transfert": 67900000,
+      "Fonction support": 30000
+    }
+  },
+  "776": {
+    "code": "776",
+    "libelle": "Recherche appliquée et innovation en agriculture",
+    "mission": "Développement agricole et rural",
+    "ministere": "Agriculture, agro-alimentaire et souveraineté alimentaire",
+    "total_cp": 103070000,
+    "actions": {
+      "Recherche appliquée et innovation": 102570000,
+      "Fonction support": 500000
+    }
+  },
+  "793": {
+    "code": "793",
+    "libelle": "Électrification rurale",
+    "mission": "Financement des aides aux collectivités pour l'électrification rurale",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 355300000,
+    "actions": {
+      "Renforcement des réseaux": 179400000,
+      "Extension des réseaux": 32000000,
+      "Enfouissement et pose en façade": 42000000,
+      "Fonctionnement": 700000,
+      "Déclaration d'utilité publique (Très haute tension)": 200000,
+      "Intempéries": 11000000,
+      "Sécurisation de fils nus": 90000000
+    }
+  },
+  "794": {
+    "code": "794",
+    "libelle": "Opérations de maîtrise de la demande d'électricité, de production d'électricité par des énergies renouvelables ou de production de proximité dans les zones non interconnectées",
+    "mission": "Financement des aides aux collectivités pour l'électrification rurale",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 3000000,
+    "actions": {
+      "Sites isolés": 500000,
+      "Installations de proximité en zone non interconnectée": 500000,
+      "Maîtrise de la demande d'énergie": 500000,
+      "Transition énergétique": 1000000,
+      "Appel à projets innovants": 500000
+    }
+  },
+  "821": {
+    "code": "821",
+    "libelle": "Avances à l'Agence de services et de paiement, au titre du préfinancement des aides communautaires de la politique agricole commune",
+    "mission": "Prêts et avances à divers services de l'État ou organismes gérant des services publics",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 9000000000,
+    "actions": {
+      "Avances au titre du préfinancement des aides communautaires de la politique agricole commune": 9000000000
+    }
+  },
+  "823": {
+    "code": "823",
+    "libelle": "Avances à des organismes distincts de l'État et gérant des services publics",
+    "mission": "Prêts et avances à divers services de l'État ou organismes gérant des services publics",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 210000000,
+    "actions": {
+      "Avances à des organismes distincts de l'État et gérant des services publics": 210000000
+    }
+  },
+  "824": {
+    "code": "824",
+    "libelle": "Prêts et avances à des services de l'État",
+    "mission": "Prêts et avances à divers services de l'État ou organismes gérant des services publics",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 30000000,
+    "actions": {
+      "Prêts et avances au budget annexe « Contrôle et exploitation aériens »": 30000000
+    }
+  },
+  "825": {
+    "code": "825",
+    "libelle": "Avances à l'Office national d'indemnisation des accidents médicaux, des affections iatrogènes et des infections nosocomiales (ONIAM) au titre de l'indemnisation des victimes du Benfluorex",
+    "mission": "Prêts et avances à divers services de l'État ou organismes gérant des services publics",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 15000000,
+    "actions": {
+      "Avances à l'ONIAM au titre de l'indemnisation des victimes du Benfluorex": 15000000
+    }
+  },
+  "830": {
+    "code": "830",
+    "libelle": "Prêts à FranceAgriMer au titre des préfinancements de fonds européens",
+    "mission": "Prêts et avances à divers services de l'État ou organismes gérant des services publics",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 40000000,
+    "actions": {
+      "Prêts au titre du financement des aides européennes versées à FranceAgriMer": 40000000
+    }
+  },
+  "832": {
+    "code": "832",
+    "libelle": "Avances aux collectivités et établissements publics, à la Nouvelle-Calédonie et aux collectivités régies par l’article 74 de la Constitution",
+    "mission": "Avances aux collectivités territoriales et aux collectivités régies par les articles 73, 74 et 76 de la Constitution",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 206000000,
+    "actions": {
+      "Avances de l'article L. 2337-1 du code général des collectivités territoriales": 6000000,
+      "Avances aux collectivités régies par les articles 74 et 76 de la Constitution": 200000000
+    }
+  },
+  "833": {
+    "code": "833",
+    "libelle": "Avances sur le montant des impositions revenant aux régions, départements, communes, établissements et divers organismes",
+    "mission": "Avances aux collectivités territoriales et aux collectivités régies par les articles 73, 74 et 76 de la Constitution",
+    "ministere": "Action et comptes publics",
+    "total_cp": 135695446995,
+    "actions": {
+      "Avances sur le montant des impositions revenant aux régions, départements, communes, établissements et divers organismes": 128258708802,
+      "Avances aux départements sur le produit de la taxe intérieure de consommation sur les produits énergétiques": 5083000000,
+      "Avances aux départements sur les frais de gestion de la taxe foncière sur les propriétés bâties": 1240072045,
+      "Avances aux régions sur les frais de gestion de la contribution foncière des entreprises (CFE) et de la contribution sur la valeur ajoutée des entreprises (CVAE) et sur le produit de la taxe intérieure de consommation sur les produits énergétiques (TICPE)": 1113666148
+    }
+  },
+  "841": {
+    "code": "841",
+    "libelle": "France Télévisions",
+    "mission": "Avances à l'audiovisuel public",
+    "ministere": "Culture",
+    "total_cp": 2425577000,
+    "actions": {
+      "France Télévisions": 2425577000
+    }
+  },
+  "842": {
+    "code": "842",
+    "libelle": "ARTE France",
+    "mission": "Avances à l'audiovisuel public",
+    "ministere": "Culture",
+    "total_cp": 298114886,
+    "actions": {
+      "ARTE France": 298114886
+    }
+  },
+  "843": {
+    "code": "843",
+    "libelle": "Radio France",
+    "mission": "Avances à l'audiovisuel public",
+    "ministere": "Culture",
+    "total_cp": 648033908,
+    "actions": {
+      "Radio France": 648033908
+    }
+  },
+  "844": {
+    "code": "844",
+    "libelle": "France Médias Monde",
+    "mission": "Avances à l'audiovisuel public",
+    "ministere": "Culture",
+    "total_cp": 303883551,
+    "actions": {
+      "France Médias Monde": 303883551
+    }
+  },
+  "845": {
+    "code": "845",
+    "libelle": "Institut national de l'audiovisuel",
+    "mission": "Avances à l'audiovisuel public",
+    "ministere": "Culture",
+    "total_cp": 103461144,
+    "actions": {
+      "Institut national de l'audiovisuel": 103461144
+    }
+  },
+  "847": {
+    "code": "847",
+    "libelle": "TV5 Monde",
+    "mission": "Avances à l'audiovisuel public",
+    "ministere": "Culture",
+    "total_cp": 84242456,
+    "actions": {
+      "TV5 Monde": 84242456
+    }
+  },
+  "851": {
+    "code": "851",
+    "libelle": "Prêts du Trésor à des États étrangers en vue de faciliter la vente de biens et de services concourant au développement du commerce extérieur de la France",
+    "mission": "Prêts à des États étrangers",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 828640452,
+    "actions": {
+      "Prêts à des États étrangers en vue de faciliter la vente de biens et de services concourant au développement du commerce extérieur de la France": 828640452
+    }
+  },
+  "852": {
+    "code": "852",
+    "libelle": "Prêts à des États étrangers pour consolidation de dettes envers la France",
+    "mission": "Prêts à des États étrangers",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 211793211,
+    "actions": {
+      "Prêts résultant de l'exécution d'accords conclus avec les gouvernements étrangers et portant consolidation des dettes de leur pays envers la France": 211793211
+    }
+  },
+  "853": {
+    "code": "853",
+    "libelle": "Prêts à l'Agence française de développement en vue de favoriser le développement économique et social dans des États étrangers",
+    "mission": "Prêts à des États étrangers",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 100000000,
+    "actions": {
+      "Prêts à l'Agence française de développement en vue de favoriser le développement économique et social dans des États étrangers": 100000000
+    }
+  },
+  "861": {
+    "code": "861",
+    "libelle": "Prêts et avances pour le logement des agents de l'État",
+    "mission": "Prêts et avances à des particuliers ou à des organismes privés",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 50000,
+    "actions": {
+      "Avances aux agents de l'État à l'étranger pour la prise en location d'un logement": 50000
+    }
+  },
+  "862": {
+    "code": "862",
+    "libelle": "Prêts pour le développement économique et social",
+    "mission": "Prêts et avances à des particuliers ou à des organismes privés",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 75000000,
+    "actions": {
+      "Prêts pour le développement économique et social": 75000000
+    }
+  },
+  "869": {
+    "code": "869",
+    "libelle": "Prêts à la société concessionnaire de la liaison express entre Paris et l'aéroport Paris-Charles de Gaulle",
+    "mission": "Prêts et avances à des particuliers ou à des organismes privés",
+    "ministere": "Transports",
+    "total_cp": 150000000,
+    "actions": {
+      "Prêts à la société concessionnaire de la liaison express entre Paris et l'aéroport Paris-Charles de Gaulle": 150000000
+    }
+  },
+  "878": {
+    "code": "878",
+    "libelle": "Soutien à la filière nickel en Nouvelle Calédonie",
+    "mission": "Prêts et avances à des particuliers ou à des organismes privés",
+    "ministere": "Économie, finances et souveraineté industrielle, énergétique et numérique",
+    "total_cp": 290000000,
+    "actions": {
+      "Soutien à la filière nickel en Nouvelle-Calédonie": 290000000
+    }
+  }
+}

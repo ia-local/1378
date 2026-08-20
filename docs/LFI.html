@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr" data-fr-theme="system">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Loi de Finances Initiale 2026 - Instruction 1378</title>
+    <!-- CDN Système de Design de l'État (DSFR) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/dsfr/dsfr.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/utility/utility.min.css">
+    <style>
+        .lfi-header {
+            background-color: var(--background-alt-blue-france);
+            padding: 3rem 0;
+            border-bottom: 4px solid var(--border-action-high-blue-france);
+        }
+        .budget-amount {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text-label-error);
+        }
+        .card-clickable {
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card-clickable:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <header role="banner" class="fr-header">
+        <div class="fr-header__body">
+            <div class="fr-container">
+                <div class="fr-header__body-row">
+                    <div class="fr-header__brand fr-enlarge-link">
+                        <div class="fr-header__brand-top">
+                            <div class="fr-header__logo"><p class="fr-logo">République<br>Française</p></div>
+                        </div>
+                        <div class="fr-header__service">
+                            <a href="#" title="Accueil"><p class="fr-header__service-title">Dôme d'Initiative Citoyenne</p></a>
+                            <p class="fr-header__service-tagline">Projet 1378 : Audit de la Loi de Finances</p>
+                        </div>
+                    </div>
+                    <div class="fr-header__tools">
+                        <div class="fr-header__tools-links">
+                            <ul class="fr-btns-group">
+                                <li><button class="fr-btn fr-icon-theme-fill fr-btn--icon-left" aria-controls="fr-theme-modal" data-fr-opened="false">Affichage</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main role="main" id="contenu">
+        <div class="lfi-header fr-mb-6w">
+            <div class="fr-container">
+                <div class="fr-grid-row">
+                    <div class="fr-col-12">
+                        <span class="fr-badge fr-badge--info fr-mb-2w">Loi de Finances Initiale 2026</span>
+                        <h1 class="fr-h1">Explorateur Budgétaire : Programme par Programme</h1>
+                        <p class="fr-text--lead">Analysez la répartition des Crédits de Paiement votés pour l'année 2026.</p>
+                        
+                        <!-- Barre de recherche -->
+                        <div class="fr-search-bar fr-mt-4w" id="search-2" role="search">
+                            <label class="fr-label" for="search-input">Rechercher un programme (Nom, Mission ou Code)</label>
+                            <input class="fr-input" placeholder="Ex: 101, Justice, Écologie..." type="search" id="search-input" name="search-input">
+                            <button class="fr-btn" title="Rechercher" id="search-btn">Rechercher</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fr-container fr-mb-4w">
+            <!-- Conteneur des cartes de programmes -->
+            <div class="fr-grid-row fr-grid-row--gutters fr-mb-4w" id="programmes-container">
+                <!-- Injection via JS -->
+            </div>
+
+            <!-- Conteneur de la pagination -->
+            <nav role="navigation" class="fr-pagination" aria-label="Pagination">
+                <ul class="fr-pagination__list" id="pagination-list">
+                    <!-- Injection via JS -->
+                </ul>
+            </nav>
+        </div>
+    </main>
+
+    <!-- Modale de détails du Programme -->
+    <dialog id="program-modal" class="fr-modal" role="dialog" aria-labelledby="program-modal-title">
+        <div class="fr-container fr-container--fluid fr-container-md">
+            <div class="fr-grid-row fr-grid-row--center">
+                <div class="fr-col-12 fr-col-md-10 fr-col-lg-8">
+                    <div class="fr-modal__body">
+                        <div class="fr-modal__header">
+                            <button class="fr-btn--close fr-btn" aria-controls="program-modal">Fermer</button>
+                        </div>
+                        <div class="fr-modal__content">
+                            <h1 id="program-modal-title" class="fr-modal__title">Détails du Programme</h1>
+                            
+                            <div class="fr-alert fr-alert--info fr-mb-3w">
+                                <p class="fr-text--sm fr-mb-0"><strong>Ministère :</strong> <span id="modal-ministere"></span></p>
+                                <p class="fr-text--sm fr-mb-0"><strong>Mission :</strong> <span id="modal-mission"></span></p>
+                            </div>
+
+                            <div class="fr-grid-row fr-grid-row--gutters fr-mb-3w">
+                                <div class="fr-col-12 fr-col-md-6">
+                                    <div class="fr-callout fr-mb-0">
+                                        <p class="fr-text--sm fr-mb-1v">Crédits de Paiement (CP)</p>
+                                        <p class="fr-text--bold fr-mb-0" id="modal-cp" style="color: var(--text-label-error);"></p>
+                                    </div>
+                                </div>
+                                <div class="fr-col-12 fr-col-md-6">
+                                    <div class="fr-callout fr-mb-0">
+                                        <p class="fr-text--sm fr-mb-1v">Autorisations d'Engagement (AE)</p>
+                                        <p class="fr-text--bold fr-mb-0" id="modal-ae" style="color: var(--text-label-blue-france);"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3 class="fr-h6 fr-mt-4w">Liste des Actions rattachées :</h3>
+                            <div class="fr-table fr-table--bordered">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Action</th>
+                                            <th class="fr-text--right">Montant CP</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="modal-actions-list">
+                                        <!-- Injection via JS -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </dialog>
+
+    <!-- Modale Thème DSFR (Simplifiée) -->
+    <dialog id="fr-theme-modal" class="fr-modal" role="dialog" aria-labelledby="fr-theme-modal-title">
+        <div class="fr-container fr-container--fluid fr-container-md">
+            <div class="fr-grid-row fr-grid-row--center">
+                <div class="fr-col-12 fr-col-md-6 fr-col-lg-4">
+                    <div class="fr-modal__body">
+                        <div class="fr-modal__header"><button class="fr-btn--close fr-btn" aria-controls="fr-theme-modal">Fermer</button></div>
+                        <div class="fr-modal__content">
+                            <h1 id="fr-theme-modal-title" class="fr-modal__title">Paramètres d’affichage</h1>
+                            <!-- Contenu natif DSFR pour le thème omis pour la concision, reprenez celui de la version précédente -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </dialog>
+
+    <!-- Scripts Modulaires -->
+    <script src="assets/js/utils-lfi.js"></script>
+    <script src="assets/js/modal-lfi.js"></script>
+    <script src="assets/js/pagination-lfi.js"></script>
+    <script src="assets//js/lfi.js"></script>
+    
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/dsfr/dsfr.module.min.js"></script>
+    <script type="text/javascript" nomodule src="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/dsfr/dsfr.nomodule.min.js"></script>
+</body>
+</html>

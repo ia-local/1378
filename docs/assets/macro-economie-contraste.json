@@ -1,0 +1,42 @@
+{
+  "contexte": "Macro-économie & Contraste Social",
+  "titre": "Le Paradoxe de l'Argent Magique : Austérité Locale vs Création Monétaire Massive",
+  "description": "Analyse des plans de relance et de la création monétaire européenne mettant en évidence l'abondance des capitaux au sommet (BCE / Union Européenne) — atteignant plus de 2 000 milliards d'euros pour la période 2021-2027 —, contrastant avec l'austérité imposée aux citoyens et services publics à la base.",
+  "donnees_europeennes": [
+    {
+      "programme": "Budget Global & Plan de Relance 2021-2027",
+      "montant_global": "~2 018 milliards d'euros",
+      "details": [
+        "1 211 milliards d'euros : Le budget à long terme classique (Cadre financier pluriannuel) de l'UE pour la période 2021-2027.",
+        "806,9 milliards d'euros : La rallonge exceptionnelle du plan de relance NextGenerationEU (emprunt massif sur les marchés des capitaux).",
+        "Remboursement de la dette lissé jusqu'en 2058.",
+        "Facilité pour la reprise et la résilience (RRF) dotée de 723,8 milliards d'euros (répartie en 338 milliards de subventions directes et 385,8 milliards de prêts aux États membres)."
+      ],
+      "source": "Budget à long terme de l'UE 2021-2027 & NextGenerationEU"
+    },
+    {
+      "programme": "Transition Verte & Biodiversité (Le 'Crédit Carbone')",
+      "montant_cible": "30 % du budget total",
+      "details": [
+        "30 % des fonds totaux de l'UE consacrés à la lutte contre le changement climatique.",
+        "10 % des dépenses annuelles en 2026 et 2027 strictement réservés à l'arrêt du déclin de la biodiversité.",
+        "5,43 milliards d'euros alloués spécifiquement au programme LIFE (Environnement et Action climatique)."
+      ],
+      "source": "Budget à long terme de l'UE 2021-2027"
+    },
+    {
+      "programme": "Transition Numérique & IA (Le 'Crédit Tech')",
+      "montant_cible": "20 % des fonds de la RRF",
+      "details": [
+        "Obligation d'investir 20 % de la Facilité pour la reprise et la résilience dans la transformation numérique.",
+        "Financement ciblé sur le calcul à haute performance, la cybersécurité et l'intelligence artificielle.",
+        "7,59 milliards d'euros alloués au 'Digital Europe Programme' (incluant le test et l'expérimentation pour l'IA)."
+      ],
+      "source": "Budget à long terme de l'UE 2021-2027"
+    }
+  ],
+  "conclusion_analytique": {
+    "constat": "L'existence cumulée de ces enveloppes frôlant les 2 018 milliards d'euros démontre que les capitaux peuvent être levés et mobilisés instantanément par les institutions à une échelle macro-économique colossale.",
+    "impact_judiciaire": "La justification de l'austérité locale par le 'manque de moyens' relève d'un choix de distribution politique, renforçant la thèse d'une captation en entonnoir où l'argent public et la dette financent des holdings industrielles et politiques (comme l'entité 1378) plutôt que l'économie réelle."
+  }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr" data-fr-theme="system">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Loi de Finances Initiale 2026 - Instruction 1378</title>
+    <!-- CDN Système de Design de l'État (DSFR) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/dsfr/dsfr.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/utility/utility.min.css">
+    <style>
+        .lfi-header {
+            background-color: var(--background-alt-blue-france);
+            padding: 3rem 0;
+            border-bottom: 4px solid var(--border-action-high-blue-france);
+        }
+        .budget-amount {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-label-error);
+        }
+    </style>
+</head>
+<body>
+    <header role="banner" class="fr-header">
+        <div class="fr-header__body">
+            <div class="fr-container">
+                <div class="fr-header__body-row">
+                    <div class="fr-header__brand fr-enlarge-link">
+                        <div class="fr-header__brand-top">
+                            <div class="fr-header__logo"><p class="fr-logo">République<br>Française</p></div>
+                        </div>
+                        <div class="fr-header__service">
+                            <a href="#" title="Accueil"><p class="fr-header__service-title">Dôme d'Initiative Citoyenne</p></a>
+                            <p class="fr-header__service-tagline">Projet 1378 : Audit de la Loi de Finances</p>
+                        </div>
+                    </div>
+                    <div class="fr-header__tools">
+                        <div class="fr-header__tools-links">
+                            <ul class="fr-btns-group">
+                                <li><button class="fr-btn fr-icon-theme-fill fr-btn--icon-left" aria-controls="fr-theme-modal" data-fr-opened="false">Affichage</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main role="main" id="contenu">
+        <div class="lfi-header fr-mb-6w">
+            <div class="fr-container">
+                <div class="fr-grid-row">
+                    <div class="fr-col-12">
+                        <span class="fr-badge fr-badge--info fr-mb-2w">Loi de Finances Initiale 2026</span>
+                        <h1 class="fr-h1">Explorateur Budgétaire : Programme par Programme</h1>
+                        <p class="fr-text--lead">Analysez la répartition des ~825 milliards d'euros de Crédits de Paiement votés pour l'année 2026.</p>
+                        
+                        <!-- Barre de recherche DSFR -->
+                        <div class="fr-search-bar fr-mt-4w" id="search-2" role="search">
+                            <label class="fr-label" for="search-input">Rechercher un programme (Nom ou Code)</label>
+                            <input class="fr-input" placeholder="Ex: 101, Justice, Écologie..." type="search" id="search-input" name="search-input">
+                            <button class="fr-btn" title="Rechercher" id="search-btn">Rechercher</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fr-container fr-mb-8w">
+            <div class="fr-grid-row fr-grid-row--gutters" id="programmes-container">
+                <!-- Les cartes des programmes seront injectées ici par JavaScript -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Modale Thème DSFR -->
+    <dialog id="fr-theme-modal" class="fr-modal" role="dialog" aria-labelledby="fr-theme-modal-title">
+        <div class="fr-container fr-container--fluid fr-container-md">
+            <div class="fr-grid-row fr-grid-row--center">
+                <div class="fr-col-12 fr-col-md-6 fr-col-lg-4">
+                    <div class="fr-modal__body">
+                        <div class="fr-modal__header"><button class="fr-btn--close fr-btn" aria-controls="fr-theme-modal">Fermer</button></div>
+                        <div class="fr-modal__content">
+                            <h1 id="fr-theme-modal-title" class="fr-modal__title">Paramètres d’affichage</h1>
+                            <div class="fr-form-group">
+                                <fieldset class="fr-fieldset">
+                                    <div class="fr-radio-group fr-radio-rich">
+                                        <input value="light" type="radio" id="fr-radios-theme-light" name="fr-radios-theme">
+                                        <label class="fr-label" for="fr-radios-theme-light">Thème clair</label>
+                                    </div>
+                                    <div class="fr-radio-group fr-radio-rich">
+                                        <input value="dark" type="radio" id="fr-radios-theme-dark" name="fr-radios-theme">
+                                        <label class="fr-label" for="fr-radios-theme-dark">Thème sombre</label>
+                                    </div>
+                                    <div class="fr-radio-group fr-radio-rich">
+                                        <input value="system" type="radio" id="fr-radios-theme-system" name="fr-radios-theme">
+                                        <label class="fr-label" for="fr-radios-theme-system">Système</label>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </dialog>
+
+    <script src="lfi.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/dsfr/dsfr.module.min.js"></script>
+    <script type="text/javascript" nomodule src="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/dsfr/dsfr.nomodule.min.js"></script>
+</body>
+</html>

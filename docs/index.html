@@ -1,34 +1,62 @@
-<html lang="fr" data-fr-theme="light">
+<!DOCTYPE html>
+<html lang="fr" data-fr-theme="system">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Procès-Verbal d'Audition - Enquête Financement Politique</title>
-    <!-- Intégration du Système de Design de l'État (DSFR) -->
+    <title>Cartographie Chronologique - Instruction 1378</title>
+    <!-- CDN Système de Design de l'État (DSFR) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/dsfr/dsfr.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/utility/utility.min.css">
     <style>
-        .pv-header {
-            border-bottom: 2px solid var(--text-title-blue-france);
-            margin-bottom: 2rem;
-            padding-bottom: 1rem;
-        }
-        .statement-box {
+        .timeline-header {
             background-color: var(--background-alt-blue-france);
-            padding: 1.5rem;
-            border-left: 4px solid var(--border-action-high-blue-france);
-            margin-bottom: 1.5rem;
+            padding: 3rem 0;
+            border-bottom: 4px solid var(--border-action-high-blue-france);
         }
-        .evidence-table th {
+        .screenshot-placeholder {
             background-color: var(--background-contrast-grey);
+            border: 2px dashed var(--border-default-grey);
+            padding: 2rem;
+            text-align: center;
+            color: var(--text-mention-grey);
+            margin: 1rem 0;
+            cursor: pointer;
+            transition: opacity 0.3s;
         }
-        .signature-block {
-            margin-top: 4rem;
-            border-top: 1px dashed var(--border-default-grey);
-            padding-top: 2rem;
+        .screenshot-placeholder:hover {
+            opacity: 0.8;
+            border-color: var(--border-action-high-blue-france);
+        }
+        .screenshot-placeholder img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid var(--border-default-grey);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .year-badge {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--text-action-high-blue-france);
+            margin-bottom: 1rem;
+            display: inline-block;
+            border-bottom: 2px solid var(--border-action-high-blue-france);
+        }
+        /* Gestion de l'affichage des sections par le JS */
+        .year-section {
+            display: none;
+        }
+        .year-section.is-active {
+            display: block;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
         }
     </style>
 </head>
 <body>
+    <!-- En-tête DSFR avec Bouton de Thème et Navigation -->
     <header role="banner" class="fr-header">
         <div class="fr-header__body">
             <div class="fr-container">
@@ -36,167 +64,272 @@
                     <div class="fr-header__brand fr-enlarge-link">
                         <div class="fr-header__brand-top">
                             <div class="fr-header__logo">
-                                <p class="fr-logo">
-                                    République<br>Française
-                                </p>
+                                <p class="fr-logo">République<br>Française</p>
                             </div>
                         </div>
                         <div class="fr-header__service">
-                            <a href="#" title="Enquête Parlementaire - Projet 1378">
-                                <p class="fr-header__service-title">Commission d'Enquête & Audit Citoyen</p>
+                            <a href="#" title="Accueil">
+                                <p class="fr-header__service-title">Dôme d'Initiative Citoyenne</p>
                             </a>
-                            <p class="fr-header__service-tagline">Instruction des comptes CNCCFP - Projet 1378</p>
+                            <p class="fr-header__service-tagline">Projet 1378 : Audit et Enquête Parlementaire</p>
+                        </div>
+                    </div>
+                    <!-- Outils : Bouton d'affichage (Clair/Sombre) -->
+                    <div class="fr-header__tools">
+                        <div class="fr-header__tools-links">
+                            <ul class="fr-btns-group">
+                                <li>
+                                    <button class="fr-btn fr-icon-theme-fill fr-btn--icon-left" aria-controls="fr-theme-modal" data-fr-opened="false">
+                                        Paramètres d'affichage
+                                    </button>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Menu de Navigation (Routage des années) -->
+        <div class="fr-header__menu fr-modal" id="modal-menu" aria-labelledby="button-menu">
+            <div class="fr-container">
+                <button class="fr-btn--close fr-btn" aria-controls="modal-menu">Fermer</button>
+                <div class="fr-header__menu-links"></div>
+                <nav class="fr-nav" id="navigation-1" role="navigation" aria-label="Menu principal">
+                    <ul class="fr-nav__list">
+                        <li class="fr-nav__item">
+                            <button class="fr-nav__btn nav-year-btn" aria-expanded="false" data-target-year="2018">2018</button>
+                        </li>
+                        <li class="fr-nav__item">
+                            <button class="fr-nav__btn nav-year-btn" aria-expanded="false" data-target-year="2019">2019</button>
+                        </li>
+                        <li class="fr-nav__item">
+                            <button class="fr-nav__btn nav-year-btn" aria-expanded="false" data-target-year="2020">2020</button>
+                        </li>
+                        <li class="fr-nav__item">
+                            <button class="fr-nav__btn nav-year-btn" aria-expanded="false" data-target-year="2021">2021</button>
+                        </li>
+                        <li class="fr-nav__item">
+                            <button class="fr-nav__btn nav-year-btn" aria-expanded="false" data-target-year="2022">2022</button>
+                        </li>
+                        <li class="fr-nav__item">
+                            <button class="fr-nav__btn nav-year-btn" aria-expanded="false" data-target-year="2023">2023</button>
+                        </li>
+                        <li class="fr-nav__item">
+                            <button class="fr-nav__btn nav-year-btn" aria-expanded="false" data-target-year="2024">2024</button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
-    <main role="main" class="fr-container fr-pt-4w fr-pb-8w" id="contenu">
-        
-        <div class="pv-header">
-            <div class="fr-grid-row fr-grid-row--middle">
-                <div class="fr-col-12 fr-col-md-8">
-                    <h1 class="fr-h1 fr-mb-1v">PROCÈS-VERBAL D'AUDITION</h1>
-                    <p class="fr-text--lead fr-mb-0">Compte-rendu d'instruction sur les flux financiers des entités politiques 1378 et 910.</p>
-                </div>
-                <div class="fr-col-12 fr-col-md-4 fr-text--right">
-                    <p class="fr-badge fr-badge--info fr-badge--no-icon">Réf. Dossier : AUD-2026-1378</p><br>
-                    <p class="fr-text--sm fr-mt-1w">Date : 12 août 2026</p>
+    <main role="main" id="contenu">
+        <!-- Bandeau d'introduction -->
+        <div class="timeline-header fr-mb-6w">
+            <div class="fr-container">
+                <div class="fr-grid-row">
+                    <div class="fr-col-12">
+                        <span class="fr-badge fr-badge--warning fr-mb-2w">Investigation en cours</span>
+                        <h1 class="fr-h1">Cartographie Chronologique du Montage Financier</h1>
+                        <p class="fr-text--lead">Démonstration systémique de la captation des aides publiques et de leur requalification en produits d'exploitation (2018 - 2024).</p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <section class="fr-mb-6w">
-            <h2 class="fr-h3">I. Objet de l'Instruction</h2>
-            <p>
-                Le présent procès-verbal consigne l'analyse des données comptables officielles déposées auprès de la Commission Nationale des Comptes de Campagne et des Financements Politiques (CNCCFP) concernant l'association de financement <strong>« Ensemble ! (Majorité présidentielle) » (Matricule 1378)</strong> et le parti <strong>« Renaissance » (Matricule 910)</strong> pour les exercices 2023 et 2024.
-            </p>
-        </section>
-
-        <section class="fr-mb-6w">
-            <h2 class="fr-h3">II. Constats Matériels et Preuves Comptables</h2>
+        <div class="fr-container fr-mb-4w" id="sections-container">
             
-            <div class="statement-box">
-                <h3 class="fr-h5">A. Captation de l'Aide Publique sans Dépenses Électorales</h3>
-                <p>L'examen du compte de résultat de l'entité 1378 pour l'exercice 2023 révèle une perception massive d'aides d'État, sans contrepartie d'engagement électoral direct :</p>
-                <div class="fr-table fr-table--bordered">
-                    <table class="evidence-table">
-                        <thead>
-                            <tr>
-                                <th>Ligne Comptable (Entité 1378 - 2023)</th>
-                                <th class="fr-text--right">Montant Constaté</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Aide publique 1ère fraction (Voix)</td>
-                                <td class="fr-text--right">8 826 708 €</td>
-                            </tr>
-                            <tr>
-                                <td>Aide publique 2ème fraction (Élus)</td>
-                                <td class="fr-text--right">10 690 353 €</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Prises en charge de dépenses électorales</strong></td>
-                                <td class="fr-text--right" style="color: var(--text-label-error);"><strong>0 €</strong></td>
-                            </tr>
-                            <tr>
-                                <td><strong>Contributions versées aux candidats</strong></td>
-                                <td class="fr-text--right" style="color: var(--text-label-error);"><strong>0 €</strong></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+            <!-- ANNÉE 2018 -->
+            <section class="fr-mb-4w year-section is-active" id="year-2018" data-year="2018">
+                <span class="year-badge">Exercice 2018</span>
+                <div class="fr-card fr-card--no-border">
+                    <div class="fr-card__body">
+                        <h3 class="fr-card__title">Opacité territoriale et Anachronismes (Matricule 910)</h3>
+                        <p class="fr-card__desc">
+                            L'analyse des comptes de <em>La République en Marche</em> révèle une hyper-centralisation des fonds et des anomalies temporelles flagrantes. Le parti capte la première fraction des aides sans dépenses associées, et impute des charges pour des élections européennes anachroniques.
+                        </p>
+                        
+                        <!-- Image cliquable déclenchant la modale -->
+                        <figure class="fr-content-media screenshot-placeholder trigger-modal" data-img-src="chemin/vers/capture_2018.png" data-img-alt="Bilan 2018 - Dépenses Européennes Anachroniques" data-img-desc="Démonstration : Lignes comptables imputées aux élections européennes sur l'exercice 2018.">
+                            <em>[Cliquer pour prévisualiser la preuve comptable 2018]</em>
+                        </figure>
 
-            <div class="statement-box">
-                <h3 class="fr-h5">B. Transmutation des Fonds en "Produits d'Exploitation"</h3>
-                <p>L'instruction a permis de retracer le flux financier sortant de l'entité 1378 vers l'entité 910 (Renaissance). Ce flux démontre une altération de la qualification comptable des deniers publics :</p>
-                <ul class="fr-list">
-                    <li><strong>Reversement centralisé :</strong> Les aides publiques sont transférées sous l'intitulé <em>« Contributions à des partis ou groupements politiques »</em> (19,5 millions d'euros en 2023, 19,4 millions en 2024).</li>
-                    <li><strong>Dilution comptable :</strong> L'entité 910 (Renaissance) affiche <strong>0 €</strong> d'aides publiques directes sur ses bilans 2023 et 2024.</li>
-                    <li><strong>Requalification en Chiffre d'Affaires :</strong> Les fonds transférés par 1378 apparaissent chez 910 à la ligne <em>« Contributions financières de partis »</em>, intégrée aux <strong>« Produits d'exploitation »</strong> (13,3 millions en 2023 ; 13,7 millions en 2024). L'aide publique est ainsi assimilée à un revenu d'entreprise, soustrayant son utilisation aux règles strictes de la comptabilité de campagne.</li>
+                        <ul class="fr-links-group">
+                            <li><a class="fr-link fr-link--download" href="https://github.com/ia-local/1378/raw/main/2018/P910_La_Republique_en_Marche_2018_comptes_OK_V2.xlsm" download>Bilan comptable 2018 (XLSX)</a></li>
+                            <li><a class="fr-link fr-link--download" href="https://github.com/ia-local/1378/raw/main/2018/P910_La_republique_en_marche_exercice2018_Observations_.pdf" download>Observations CNCCFP 2018 (PDF)</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ANNÉE 2019 -->
+            <section class="fr-mb-4w year-section" id="year-2019" data-year="2019">
+                <span class="year-badge">Exercice 2019</span>
+                <div class="fr-card fr-card--no-border">
+                    <div class="fr-card__body">
+                        <h3 class="fr-card__title">Les structures "Coquilles vides" (Matricule 718)</h3>
+                        <p class="fr-card__desc">Alerte officielle des commissaires aux comptes sur une « incertitude significative » concernant la continuité d'activité de l'entité satellite <em>La France en Marche</em>.</p>
+                        <figure class="fr-content-media screenshot-placeholder trigger-modal" data-img-src="chemin/vers/capture_2019.png" data-img-alt="Alerte continuité exploitation 2019" data-img-desc="Avis de la CNCCFP : Alerte sur la viabilité de la structure 718.">
+                            <em>[Cliquer pour prévisualiser la preuve comptable 2019]</em>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ANNÉE 2020 -->
+            <section class="fr-mb-4w year-section" id="year-2020" data-year="2020">
+                <span class="year-badge">Exercice 2020</span>
+                <div class="fr-card fr-card--no-border">
+                    <div class="fr-card__body">
+                        <h3 class="fr-card__title">Maintien de la captation (Matricule 910)</h3>
+                        <p class="fr-card__desc">L'exercice 2020 confirme la requalification systématique des fonds publics en produits d'exploitation.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ANNÉE 2021 -->
+            <section class="fr-mb-4w year-section" id="year-2021" data-year="2021">
+                <span class="year-badge">Exercice 2021</span>
+                <div class="fr-card fr-card--no-border">
+                    <div class="fr-card__body">
+                        <h3 class="fr-card__title">Préparation électorale et réserves (Matricule 910)</h3>
+                        <p class="fr-card__desc">Augmentation des "Disponibilités" à l'actif du bilan avant l'échéance présidentielle.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ANNÉE 2022 -->
+            <section class="fr-mb-4w year-section" id="year-2022" data-year="2022">
+                <span class="year-badge">Exercice 2022</span>
+                <div class="fr-card fr-card--no-border">
+                    <div class="fr-card__body">
+                        <h3 class="fr-card__title">Mutation vers la Holding (Matricule 910 & 986)</h3>
+                        <p class="fr-card__desc">Transition de <em>En Marche</em> vers <em>Renaissance</em>. Création des nouvelles entités de captation.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ANNÉES 2023-2024 -->
+            <section class="fr-mb-4w year-section" id="year-2023" data-year="2023">
+                <span class="year-badge">Exercices 2023</span>
+                <div class="fr-card fr-card--no-border">
+                    <div class="fr-card__body">
+                        <h3 class="fr-card__title">La Holding Financière finalisée (Matricules 1378 & 910)</h3>
+                        <p class="fr-card__desc">La structure <em>Ensemble</em> (1378) capte 19,5M€ d'aides publiques, sans dépense électorale, et reverse les fonds maquillés en « Produits d'exploitation » à <em>Renaissance</em>.</p>
+                        <figure class="fr-content-media screenshot-placeholder trigger-modal" data-img-src="chemin/vers/capture_2024.png" data-img-alt="Bilan 1378 Zéro Dépenses" data-img-desc="Transferts financiers entre le matricule 1378 et les structures satellites.">
+                            <em>[Cliquer pour prévisualiser la preuve comptable 2024]</em>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+            <section class="fr-mb-4w year-section" id="year-2024" data-year="2024">
+                <span class="year-badge">Exercices 2024</span>
+                <div class="fr-card fr-card--no-border">
+                    <div class="fr-card__body">
+                        <h3 class="fr-card__title">La Holding Financière finalisée (Matricules 1378 & 910)</h3>
+                        <p class="fr-card__desc">La structure <em>Ensemble</em> (1378) capte 19,5M€ d'aides publiques, sans dépense électorale, et reverse les fonds maquillés en « Produits d'exploitation » à <em>Renaissance</em>.</p>
+                        <figure class="fr-content-media screenshot-placeholder trigger-modal" data-img-src="chemin/vers/capture_2024.png" data-img-alt="Bilan 1378 Zéro Dépenses" data-img-desc="Transferts financiers entre le matricule 1378 et les structures satellites.">
+                            <em>[Cliquer pour prévisualiser la preuve comptable 2025]</em>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Pagination DSFR -->
+        <div class="fr-container fr-mb-8w">
+            <nav role="navigation" class="fr-pagination" aria-label="Pagination chronologique">
+                <ul class="fr-pagination__list">
+                    <li><a class="fr-pagination__link fr-pagination__link--prev fr-pagination__link--lg-label" aria-disabled="true" role="link" id="btn-prev">Année précédente</a></li>
+                    <li><a class="fr-pagination__link fr-pagination__link--next fr-pagination__link--lg-label" href="#" id="btn-next">Année suivante</a></li>
                 </ul>
-            </div>
-
-            <div class="statement-box">
-                <h3 class="fr-h5">C. De la Comptabilité de Campagne à la Logique de Holding Financière</h3>
-                <p>L'analyse des bilans (Actif/Passif) des différentes entités démontre un dévoiement fondamental de la nature même du financement électoral.</p>
-                <ul class="fr-list">
-                    <li><strong>Rupture du principe d'équilibre électoral :</strong> Dans un compte de campagne (loi électorale), les recettes ne peuvent excéder les dépenses réelles; un excédent n'est pas conservé pour l'enrichissement personnel ou partisan.</li>
-                    <li><strong>Accumulation des excédents (Bilan Passif) :</strong> La transformation des subventions en <em>« Produits d'exploitation »</em> permet aux partis (Renaissance, MoDem, Horizons) de dégager un excédent net. Cet excédent n'est pas restitué, il est inscrit au passif du bilan en tant que <strong>« Réserves »</strong>.</li>
-                    <li><strong>Capitalisation (Bilan Actif) :</strong> Le corollaire de ces réserves se retrouve à l'actif du bilan sous la ligne <strong>« Disponibilités »</strong>. Des millions d'euros issus de l'impôt sont ainsi littéralement thésaurisés, dormant sur des comptes ou placements bancaires, illustrant une gestion d'accumulation propre aux <strong>holdings financières</strong>, aux antipodes du financement dynamique de l'expression démocratique.</li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="fr-mb-6w">
-            <h2 class="fr-h3">III. Qualifications Pénales Envisagées (Base de Plaidoirie)</h2>
-            <p>Les éléments comptables mis en évidence constituent le socle des poursuites judiciaires demandées :</p>
-            
-            <div class="fr-callout fr-icon-warning-line">
-                <h3 class="fr-callout__title">Art. 313-1 du Code Pénal : Escroquerie</h3>
-                <p class="fr-callout__text">
-                    La transformation d'un vote citoyen en rente financière via un "guichet unique" (1378), suivie du blanchiment de cette aide publique en "Produit d'exploitation" au sein d'une seconde entité (910), caractérise l'utilisation de manœuvres frauduleuses pour tromper l'État et obtenir la remise de fonds de manière opaque.
-                </p>
-            </div>
-
-            <div class="fr-callout fr-icon-warning-line fr-mt-2w">
-                <h3 class="fr-callout__title">Art. 432-12 du Code Pénal : Prise Illégale d'Intérêts</h3>
-                <p class="fr-callout__text">
-                    La gestion de l'entité 1378 comme une structure de "holding" financière (qui perçoit sans dépenser pour les campagnes, puis reverse aux états-majors) prive la CNCCFP et le citoyen de la garantie que les deniers publics financent effectivement l'expression démocratique, et non des intérêts partisans privés.
-                </p>
-            </div>
-        </section>
-
-        <section class="signature-block">
-            <div class="fr-grid-row">
-                <div class="fr-col-12 fr-col-md-6">
-                    <p class="fr-text--bold">Décisions requises :</p>
-                    <ul class="fr-list">
-                        <li>Saisie des écritures comptables détaillées des entités 1378, 910, 529 et 1501.</li>
-                        <li>Levée de l'anonymat sur les accords de reversement intra-coalition.</li>
-                        <li>Transmission du dossier au Parquet National Financier (PNF).</li>
-                    </ul>
-                </div>
-                <div class="fr-col-12 fr-col-md-6 fr-text--right">
-                    <p>Fait pour valoir ce que de droit,<br>Le Rapporteur de l'Instruction Citoyenne.</p>
-                    <p class="fr-text--sm fr-mt-4w"><em>[Signature de l'Instructeur / Audit]</em></p>
-                </div>
-            </div>
-        </section>
-        
+            </nav>
+        </div>
     </main>
+
+    <!-- Modale de Prévisualisation (Image) -->
+    <dialog id="preview-modal" class="fr-modal" role="dialog" aria-labelledby="preview-modal-title">
+        <div class="fr-container fr-container--fluid fr-container-md">
+            <div class="fr-grid-row fr-grid-row--center">
+                <div class="fr-col-12 fr-col-md-10 fr-col-lg-8">
+                    <div class="fr-modal__body">
+                        <div class="fr-modal__header">
+                            <button class="fr-btn--close fr-btn" aria-controls="preview-modal">Fermer</button>
+                        </div>
+                        <div class="fr-modal__content">
+                            <h1 id="preview-modal-title" class="fr-modal__title">
+                                <span class="fr-icon-microscope-line fr-icon--lg" aria-hidden="true"></span>
+                                Examen de la pièce comptable
+                            </h1>
+                            <figure class="fr-content-media" role="group">
+                                <img id="modal-image" src="" class="fr-responsive-img" alt="">
+                                <figcaption class="fr-content-media__caption" id="modal-caption"></figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </dialog>
+
+    <!-- Modale native DSFR pour le thème (Clair/Sombre/Système) -->
+    <dialog id="fr-theme-modal" class="fr-modal" role="dialog" aria-labelledby="fr-theme-modal-title">
+        <div class="fr-container fr-container--fluid fr-container-md">
+            <div class="fr-grid-row fr-grid-row--center">
+                <div class="fr-col-12 fr-col-md-6 fr-col-lg-4">
+                    <div class="fr-modal__body">
+                        <div class="fr-modal__header">
+                            <button class="fr-btn--close fr-btn" aria-controls="fr-theme-modal" title="Fermer">Fermer</button>
+                        </div>
+                        <div class="fr-modal__content">
+                            <h1 id="fr-theme-modal-title" class="fr-modal__title">Paramètres d’affichage</h1>
+                            <div id="fr-display" class="fr-display">
+                                <div class="fr-form-group">
+                                    <fieldset class="fr-fieldset">
+                                        <legend class="fr-fieldset__legend fr-text--regular">Choisissez un thème</legend>
+                                        <div class="fr-fieldset__content">
+                                            <div class="fr-radio-group fr-radio-rich">
+                                                <input value="light" type="radio" id="fr-radios-theme-light" name="fr-radios-theme">
+                                                <label class="fr-label" for="fr-radios-theme-light">Thème clair</label>
+                                            </div>
+                                            <div class="fr-radio-group fr-radio-rich">
+                                                <input value="dark" type="radio" id="fr-radios-theme-dark" name="fr-radios-theme">
+                                                <label class="fr-label" for="fr-radios-theme-dark">Thème sombre</label>
+                                            </div>
+                                            <div class="fr-radio-group fr-radio-rich">
+                                                <input value="system" type="radio" id="fr-radios-theme-system" name="fr-radios-theme">
+                                                <label class="fr-label" for="fr-radios-theme-system">Système (Par défaut)</label>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </dialog>
 
     <footer class="fr-footer" role="contentinfo" id="footer">
         <div class="fr-container">
             <div class="fr-footer__body">
                 <div class="fr-footer__brand fr-enlarge-link">
-                    <p class="fr-logo">
-                        République<br>Française
-                    </p>
+                    <p class="fr-logo">République<br>Française</p>
                 </div>
                 <div class="fr-footer__content">
-                    <p class="fr-footer__content-desc">Dôme d'Initiative Citoyenne - Instance de contrôle (RIC_ENGINE). Document généré pour la préservation de la transparence démocratique.</p>
-                    <ul class="fr-footer__content-list">
-                        <li class="fr-footer__content-item">
-                            <a class="fr-footer__content-link" target="_blank" href="https://github.com/ia-local/1378">Dossier /1378 (Pièces à conviction)</a>
-                        </li>
-                    </ul>
+                    <p class="fr-footer__content-desc">Dôme d'Initiative Citoyenne (RIC_ENGINE). Instance de contrôle, d'audit et de restitution des données publiques.</p>
                 </div>
-            </div>
-            <div class="fr-footer__bottom">
-                <ul class="fr-footer__bottom-list">
-                    <li class="fr-footer__bottom-item">
-                        <span class="fr-footer__bottom-link">Formaté selon les normes W3C & DSFR</span>
-                    </li>
-                </ul>
             </div>
         </div>
     </footer>
 
+    <!-- Scripts Modulaires -->
+    <script src="app.js"></script>
+    <script src="pagination.js"></script>
+    <script src="modal.js"></script>
+    
     <!-- Scripts DSFR -->
     <script type="module" src="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/dsfr/dsfr.module.min.js"></script>
     <script type="text/javascript" nomodule src="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/dsfr/dsfr.nomodule.min.js"></script>

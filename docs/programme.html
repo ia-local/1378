@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr" data-fr-theme="system">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Détail du Programme - Instruction LFI</title>
+    <!-- CDN Système de Design de l'État (DSFR) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/dsfr/dsfr.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/utility/utility.min.css">
+    <style>
+        .prog-header {
+            background-color: var(--background-alt-grey);
+            padding: 3rem 0 2rem;
+            border-bottom: 4px solid var(--border-plain-blue-france);
+        }
+        .budget-value {
+            font-size: 1.75rem;
+            font-weight: 700;
+        }
+        .text-cp { color: var(--text-label-error); }
+        .text-ae { color: var(--text-label-blue-france); }
+    </style>
+</head>
+<body>
+    <header role="banner" class="fr-header">
+        <div class="fr-header__body">
+            <div class="fr-container">
+                <div class="fr-header__body-row">
+                    <div class="fr-header__brand fr-enlarge-link">
+                        <div class="fr-header__brand-top">
+                            <div class="fr-header__logo"><p class="fr-logo">République<br>Française</p></div>
+                        </div>
+                        <div class="fr-header__service">
+                            <a href="index.html" title="Accueil"><p class="fr-header__service-title">Dôme d'Initiative Citoyenne</p></a>
+                            <p class="fr-header__service-tagline">Projet 1378 : Audit de la Loi de Finances</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main role="main" id="contenu">
+        <!-- Fil d'Ariane -->
+        <div class="fr-container fr-mt-2w">
+            <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+                <button class="fr-breadcrumb__button" aria-expanded="false" aria-controls="breadcrumb-1">Voir le fil d’Ariane</button>
+                <div class="fr-collapse" id="breadcrumb-1">
+                    <ol class="fr-breadcrumb__list">
+                        <li><a class="fr-breadcrumb__link" href="index.html">Accueil</a></li>
+                        <li><a class="fr-breadcrumb__link" href="LFI.html">Explorateur LFI 2026</a></li>
+                        <li><a class="fr-breadcrumb__link" aria-current="page" id="breadcrumb-current">Chargement...</a></li>
+                    </ol>
+                </div>
+            </nav>
+        </div>
+
+        <!-- En-tête du Programme -->
+        <div class="prog-header fr-mb-6w">
+            <div class="fr-container">
+                <div class="fr-grid-row">
+                    <div class="fr-col-12" id="prog-loader">
+                        <div class="fr-alert fr-alert--info"><p>Chargement des données du programme en cours...</p></div>
+                    </div>
+                    <div class="fr-col-12" id="prog-content" style="display: none;">
+                        <span class="fr-badge fr-badge--new fr-mb-2w" id="prog-code">Programme XXX</span>
+                        <h1 class="fr-h1" id="prog-title">Titre du Programme</h1>
+                        <div class="fr-text--lead fr-mb-2w">
+                            <strong>Ministère de rattachement :</strong> <span id="prog-ministere"></span><br>
+                            <strong>Mission :</strong> <span id="prog-mission"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fr-container fr-mb-8w" id="prog-details" style="display: none;">
+            
+            <section class="fr-mb-6w">
+                <h2 class="fr-h2">1. Synthèse Budgétaire Votée (LFI 2026)</h2>
+                <div class="fr-grid-row fr-grid-row--gutters">
+                    <div class="fr-col-12 fr-col-md-6">
+                        <div class="fr-callout fr-icon-bank-card-line">
+                            <h3 class="fr-callout__title">Crédits de Paiement (CP)</h3>
+                            <p class="fr-callout__text">Fonds disponibles pour l'année en cours.</p>
+                            <p class="budget-value text-cp fr-mt-2w" id="prog-cp">0 €</p>
+                        </div>
+                    </div>
+                    <div class="fr-col-12 fr-col-md-6">
+                        <div class="fr-callout fr-icon-file-text-line">
+                            <h3 class="fr-callout__title">Autorisations d'Engagement (AE)</h3>
+                            <p class="fr-callout__text">Limite supérieure des dépenses pouvant être engagées.</p>
+                            <p class="budget-value text-ae fr-mt-2w" id="prog-ae">0 €</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="fr-mb-6w">
+                <h2 class="fr-h2">2. Répartition par Actions</h2>
+                <p>Décomposition analytique des Crédits de Paiement (CP) alloués aux différentes actions de ce programme.</p>
+                
+                <div class="fr-table fr-table--bordered">
+                    <table>
+                        <caption>Liste des actions du programme</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Intitulé de l'Action</th>
+                                <th scope="col" class="fr-text--right">Montant (CP)</th>
+                            </tr>
+                        </thead>
+                        <tbody id="prog-actions-list">
+                            <!-- Injecté par JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <div class="fr-mt-6w fr-text--center">
+                <a href="LFI.html" class="fr-btn fr-btn--secondary fr-icon-arrow-left-line fr-btn--icon-left">
+                    Retour à l'explorateur LFI
+                </a>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="fr-footer" role="contentinfo" id="footer">
+        <div class="fr-container">
+            <div class="fr-footer__body">
+                <div class="fr-footer__brand fr-enlarge-link"><p class="fr-logo">République<br>Française</p></div>
+                <div class="fr-footer__content">
+                    <p class="fr-footer__content-desc">Dôme d'Initiative Citoyenne - Instance d'Audit et de Restitution des Données Publiques.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/utils-lfi.js"></script>
+    <script src="assets/js/programme.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/dsfr/dsfr.module.min.js"></script>
+    <script type="text/javascript" nomodule src="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/dsfr/dsfr.nomodule.min.js"></script>
+</body>
+</html>
