@@ -1,0 +1,127 @@
+{
+  "investigation_id": "1378",
+  "title": "Cartographie Chronologique du Montage Financier",
+  "timeline": [
+    {
+      "year": "2018",
+      "title": "La matrice originelle et l'anachronisme comptable",
+      "entities": ["910 (La République en Marche)"],
+      "description": "Perception de l'aide publique issue de 2017 sans dépenses électorales correspondantes à l'élection présidentielle. Imputation anachronique de dépenses pour des élections européennes (pourtant prévues en 2019) sur l'exercice 2018.",
+      "accounting_mechanisms": [
+        "Captation des aides publiques de 1ère et 2ème fraction.",
+        "Transformation de la recette fiscale en produits d'exploitation.",
+        "Génération du premier excédent stocké en Réserves (Passif) et Disponibilités (Actif)."
+      ],
+      "files": [
+        "P910_La_Republique_en_Marche_2018_comptes_OK_V2.xlsm",
+        "P910_La_republique_en_marche_exercice2018_Observations_.pdf"
+      ]
+    },
+    {
+      "year": "2019",
+      "title": "La création de coquilles vides satellitaires",
+      "entities": ["910 (La République en Marche)", "718 (La France en Marche)"],
+      "description": "Maintien de la rente continue hors année électorale majeure. Émergence de structures satellites agissant comme des sas de transit.",
+      "accounting_mechanisms": [
+        "Alerte officielle des commissaires aux comptes sur l'incertitude de la continuité d'activité pour l'entité 718.",
+        "Gonflement ininterrompu des Disponibilités bancaires."
+      ],
+      "files": [
+        "P718_La_France_En_Marche_Comptes_2019_OK_V1.xlsm",
+        "P718_observations_La_France_en_marche_ok_v1.pdf"
+      ]
+    },
+    {
+      "year": "2020",
+      "title": "Capitalisation de la ressource fiscale",
+      "entities": ["910 (La République en Marche)"],
+      "description": "En l'absence de scrutins justifiant des dépenses massives, l'aide publique est quasi intégralement transformée en trésorerie.",
+      "accounting_mechanisms": [
+        "Alimentation directe des Réserves au Passif.",
+        "Accroissement des placements et liquidités dans les Disponibilités à l'Actif."
+      ],
+      "files": [
+        "P910_La_republique_en_marche_Comptes_2020_ok_v1.xlsm"
+      ]
+    },
+    {
+      "year": "2021",
+      "title": "Préparation électorale par la holding",
+      "entities": ["910 (La République en Marche)"],
+      "description": "Dernier exercice avant le remaniement de l'alliance. La structure agit comme une entité capitalistique préparant un investissement.",
+      "accounting_mechanisms": [
+        "Optimisation du bilan comptable.",
+        "Maintien de l'opacité territoriale des sites départementaux."
+      ],
+      "files": [
+        "P910_La_republique_en_marche_2021_KO_V1_OK_V1.xlsm"
+      ]
+    },
+    {
+      "year": "2022",
+      "title": "La bascule vers le Guichet Unique",
+      "entities": ["1378 (Ensemble)", "910 (Renaissance)", "986 (Renaissance à gauche)"],
+      "description": "Restructuration totale pour les législatives. Création de la structure 1378 (Ensemble) destinée à capter l'ensemble des suffrages de la coalition pour centraliser la 1ère fraction des aides publiques.",
+      "accounting_mechanisms": [
+        "Transition de 'En Marche' vers 'Renaissance'.",
+        "Mise en place de l'entonnoir financier : 1378 devient le réceptacle exclusif de la rente quinquennale."
+      ],
+      "files": [
+        "P910_Renaissance_2022_KO_V1_ok_v1.xlsm",
+        "P986_Renaissance_a_gauche_2022_KO_V3_ok_v1.xlsm"
+      ]
+    },
+    {
+      "year": "2023",
+      "title": "Le blanchiment comptable industrialisé",
+      "entities": ["1378 (Ensemble)", "910 (Renaissance)"],
+      "description": "Année post-électorale démontrant la mécanique de siphonnage. 1378 encaisse les aides d'État et les redistribue sans justifier de la moindre dépense de campagne propre.",
+      "financial_data": {
+        "1378": {
+          "aides_publiques_percues": "19 517 062 €",
+          "depenses_electorales": "0 €",
+          "contributions_versees_partis": "19 502 062 €"
+        },
+        "910": {
+          "aides_publiques_directes": "0 €",
+          "contributions_recues_en_produits": "13 302 689 €"
+        }
+      },
+      "accounting_mechanisms": [
+        "Transfert intra-groupes : la structure 1378 est vidée vers ses satellites.",
+        "Requalification stricte : l'aide publique devient un Produit d'exploitation chez le bénéficiaire 910."
+      ],
+      "files": [
+        "P910_Renaissance_2023_KO_V1_ok_v1.xlsm",
+        "P1378_Ensemble_majorite_presidentielle_2023_KO_V1_ok_v1 (1).xlsm"
+      ]
+    },
+    {
+      "year": "2024",
+      "title": "La Holding Financière à maturité",
+      "entities": ["1378 (Ensemble)", "910 (Renaissance)", "529 (MoDem)", "1501 (Horizons)"],
+      "description": "Validation définitive du modèle économique partisan. L'impôt est privatisé via le jeu des reversements et sécurisé au bilan.",
+      "financial_data": {
+        "1378": {
+          "aides_publiques_percues": "19 474 807 €",
+          "depenses_electorales": "0 €",
+          "contributions_versees_partis": "19 469 807 €"
+        },
+        "910": {
+          "aides_publiques_directes": "0 €",
+          "contributions_recues_en_produits": "13 729 176 €"
+        }
+      },
+      "accounting_mechanisms": [
+        "Déconnexion totale entre la finalité électorale et le flux monétaire.",
+        "Enrichissement permanent : les excédents s'accumulent au Passif (Réserves) et sont sanctuarisés à l'Actif (Disponibilités)."
+      ],
+      "files": [
+        "P1378_Ensemble_majorite_presidentielle_2024_KO_V1_ok_v1.xlsm",
+        "P910_Renaissance_2024_KO_V1_ok_v1.xlsm",
+        "P529_Mouvement_democrate_2024_KO_V2_ok_v1.xlsm",
+        "P1501_Horizon_2024_KO_V1_ok_v1.xlsm"
+      ]
+    }
+  ]
+}

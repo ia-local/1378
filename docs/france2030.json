@@ -1,0 +1,62 @@
+{
+  "projet": "France 2030",
+  "source": "https://www.elysee.fr/emmanuel-macron/france2030",
+  "description": "Un plan qui suit 10 objectifs pour mieux comprendre, mieux vivre, mieux produire en France à l’horizon 2030.",
+  "budgets_globaux_alloues": [
+    {
+      "objectifs_cibles": [1, 2, 3],
+      "montant": "Plus de 8 milliards d’euros"
+    },
+    {
+      "objectifs_cibles": [4, 5],
+      "montant": "Près de 4 milliards d’euros"
+    }
+  ],
+  "objectifs": [
+    {
+      "numero": 1,
+      "titre": "Faire émerger en France des réacteurs nucléaires de petite taille, innovants et avec une meilleure gestion des déchets.",
+      "budget_specifique": "1 milliard d’euros d’ici à 2030"
+    },
+    {
+      "numero": 2,
+      "titre": "Devenir le leader de l'hydrogène vert.",
+      "description": "En 2030, la France comptera sur son sol au moins deux gigafactories d’électrolyseurs et produira massivement de l’hydrogène et l’ensemble des technologies utiles à son utilisation."
+    },
+    {
+      "numero": 3,
+      "titre": "Décarboner notre industrie.",
+      "description": "Baisser de 35 % les émissions de gaz à effet de serre par rapport à 2015."
+    },
+    {
+      "numero": 4,
+      "titre": "Produire près de 2 millions de véhicules électriques et hybrides."
+    },
+    {
+      "numero": 5,
+      "titre": "Produire le premier avion bas-carbone."
+    },
+    {
+      "numero": 6,
+      "titre": "Investir dans une alimentation saine, durable et traçable.",
+      "budget_specifique": "2 milliards d’euros investis pour ces enjeux."
+    },
+    {
+      "numero": 7,
+      "titre": "Produire 20 biomédicaments contre les cancers, les maladies chroniques dont celles liées à l'âge et créer les dispositifs médicaux de demain."
+    },
+    {
+      "numero": 8,
+      "titre": "Placer la France à nouveau en tête de la production des contenus culturels et créatifs.",
+      "description": "3 territoires stratégiques ont été identifiés : l’Arc méditerranéen, l’Île-de-France, le Nord. Ils seront les 3 grandes fabriques de la French Touch."
+    },
+    {
+      "numero": 9,
+      "titre": "Prendre toute notre part à la nouvelle aventure spatiale."
+    },
+    {
+      "numero": 10,
+      "titre": "Investir dans le champ des fonds marins."
+    }
+  ]
+}
